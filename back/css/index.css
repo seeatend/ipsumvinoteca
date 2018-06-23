@@ -1,0 +1,162 @@
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 848px;
+	min-height: 596px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: #FFFFFF;
+	padding-left: 231px;
+	padding-top: 4px;
+	padding-right: 131px;
+}
+
+#pu926
+{
+	width: 0.01px;
+	position: relative;
+}
+
+#u926
+{
+	z-index: 2;
+	width: 325px;
+	height: 348px;
+	border-color: #000000;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 4px;
+	left: 518px;
+	background: transparent url("../images/logo%20award%20ipsumbigger.jpg") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u3953
+{
+	z-index: 29;
+	width: 569px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#pu925-4
+{
+	width: 0.01px;
+	margin-left: 354px;
+	margin-top: 123px;
+	position: relative;
+}
+
+#u925-4
+{
+	z-index: 3;
+	position: relative;
+	width: 210px;
+	margin-right: -10000px;
+	margin-top: 31px;
+}
+
+#u925-4_img
+{
+	display: block;
+	vertical-align: top;
+}
+
+#u3147-3
+{
+	z-index: 16;
+	width: 20px;
+	min-height: 41px;
+	position: relative;
+	margin-right: -10000px;
+	left: 165px;
+}
+
+#pu3143-4
+{
+	width: 0.01px;
+	margin-left: 97px;
+	margin-top: 46px;
+	position: relative;
+}
+
+#u3143-4
+{
+	z-index: 7;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 16px;
+}
+
+#u3144
+{
+	z-index: 11;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	left: 155px;
+}
+
+#u3145-4
+{
+	z-index: 12;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 16px;
+	left: 204px;
+}
+
+#u3238
+{
+	z-index: 27;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 1px;
+	left: 362px;
+}
+
+#u3148-4
+{
+	z-index: 19;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 18px;
+	left: 402px;
+}
+
+#u3239
+{
+	z-index: 28;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	left: 565px;
+}
+
+#u3150-4
+{
+	z-index: 23;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 20px;
+	left: 606px;
+}
+

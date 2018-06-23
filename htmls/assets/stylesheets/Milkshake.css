@@ -1,0 +1,11 @@
+
+@font-face {
+    font-family: 'Milkshake';
+    src: url('../fonts/Milkshake.eot');
+    src: url('../fonts/Milkshake.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Milkshake.woff') format('woff'),
+         url('../fonts/Milkshake.ttf') format('truetype'),
+         url('../fonts/Milkshake.svg#Milkshake') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}

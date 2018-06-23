@@ -1,0 +1,319 @@
+@-ms-viewport
+{
+	width: 380px;
+}
+
+@-webkit-viewport
+{
+	width: 380px;
+}
+
+@-o-viewport
+{
+	width: 380px;
+}
+
+@-moz-viewport
+{
+	width: 380px;
+}
+
+@viewport
+{
+	width: 380px;
+}
+
+html
+{
+	background-color: #7F7F7F;
+}
+
+#page
+{
+	z-index: 1;
+	width: 380px;
+	min-height: 569.6890895398128px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: #FFFFFF;
+	padding-bottom: 0px;
+}
+
+#page_position_content
+{
+	margin-top: 8px;
+}
+
+#u14999-4
+{
+	z-index: 22;
+	width: 253px;
+	min-height: 65px;
+	text-align: center;
+	font-size: 52px;
+	font-family: esteban, sans-serif;
+	font-weight: 400;
+	margin-left: 63px;
+	position: relative;
+}
+
+#u14998-4
+{
+	z-index: 18;
+	width: 253px;
+	min-height: 65px;
+	text-align: center;
+	font-size: 30px;
+	font-family: esteban, sans-serif;
+	font-weight: 400;
+	margin-left: 63px;
+	margin-top: 7px;
+	position: relative;
+}
+
+#u15774
+{
+	z-index: 68;
+	width: 352px;
+	min-height: 754px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 14px;
+	position: relative;
+}
+
+#u14981
+{
+	z-index: 4;
+	width: 32px;
+	border-color: #000000;
+	background-color: #3B5998;
+	padding-bottom: 1px;
+	margin-left: 345px;
+	margin-top: 661px;
+	position: relative;
+}
+
+#u14981.MuseLinkActive
+{
+	margin: 661px 0px 0px 345px;
+}
+
+#u14987
+{
+	z-index: 10;
+	width: 32px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 2px;
+}
+
+#pu14984
+{
+	width: 0.01px;
+	margin-left: 345px;
+	position: relative;
+}
+
+#u14984
+{
+	z-index: 7;
+	width: 32px;
+	height: 32px;
+	border-color: #000000;
+	background-color: #25A8E2;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u14989
+{
+	z-index: 12;
+	width: 31px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 1px;
+}
+
+#u14989_img
+{
+	padding-top: 3px;
+	padding-bottom: 4px;
+}
+
+#pu14982
+{
+	width: 0.01px;
+	margin-left: 341px;
+	margin-top: 1px;
+	position: relative;
+}
+
+#u14982
+{
+	z-index: 5;
+	width: 32px;
+	height: 32px;
+	border-color: #000000;
+	background-color: #A07259;
+	position: relative;
+	margin-right: -10000px;
+	left: 4px;
+}
+
+#u14984.MuseLinkActive,#u14982.MuseLinkActive
+{
+	margin: 0px -10000px 0px 0px;
+}
+
+#u14985
+{
+	z-index: 8;
+	width: 39px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#pu14983
+{
+	width: 0.01px;
+	margin-left: 345px;
+	top: -3px;
+	margin-bottom: -3px;
+	position: relative;
+}
+
+#u14983
+{
+	z-index: 6;
+	width: 32px;
+	height: 32px;
+	border-color: #000000;
+	background-color: #D34230;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u14991
+{
+	z-index: 14;
+	width: 31px;
+	position: relative;
+	margin-right: -10000px;
+	left: 1px;
+}
+
+#u14991_img
+{
+	padding-bottom: 1px;
+}
+
+#pu14993
+{
+	width: 0.01px;
+	top: -6px;
+	margin-bottom: -6px;
+	position: relative;
+}
+
+#u14993
+{
+	z-index: 16;
+	width: 39px;
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	transform: rotate(270deg);
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u14979
+{
+	z-index: 2;
+	width: 32px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 6px;
+	left: 345px;
+}
+
+#pu15108
+{
+	width: 0.01px;
+	top: -1px;
+	margin-bottom: -1px;
+	position: relative;
+}
+
+#u15108
+{
+	z-index: 26;
+	width: 380px;
+	border-color: #000000;
+	background-color: #F4F4F4;
+	padding-bottom: 25px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u15110-20
+{
+	z-index: 47;
+	width: 185px;
+	min-height: 163px;
+	font-size: 12px;
+	font-family: esteban, sans-serif;
+	font-weight: 400;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 177px;
+	left: 8px;
+}
+
+#u15109-20
+{
+	z-index: 27;
+	width: 133px;
+	min-height: 169px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 166px;
+	left: 240px;
+}
+
+#u15109-2,#u15109-3,#u15109-5,#u15109-7,#u15109-8,#u15109-10,#u15109-12,#u15109-13,#u15109-15,#u15109-17
+{
+	font-size: 12px;
+	text-align: right;
+	font-family: esteban, sans-serif;
+	font-weight: 400;
+}
+
+#u15111
+{
+	z-index: 67;
+	width: 327px;
+	height: 201px;
+	position: relative;
+	margin-right: -10000px;
+	left: 28px;
+	background: transparent url("../../images/ipsum%20new%20logo1sss-u14912-fr.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u15111:hover
+{
+	margin: 0px -10000px 0px 0px;
+	background: transparent url("../../images/ipsum%20new%20logo1sss-u14912-r-fr.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

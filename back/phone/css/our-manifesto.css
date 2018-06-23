@@ -1,0 +1,481 @@
+@-ms-viewport
+{
+	width: 380px;
+}
+
+@-webkit-viewport
+{
+	width: 380px;
+}
+
+@-o-viewport
+{
+	width: 380px;
+}
+
+@-moz-viewport
+{
+	width: 380px;
+}
+
+@viewport
+{
+	width: 380px;
+}
+
+.html
+{
+	background-color: #7F7F7F;
+}
+
+#page
+{
+	z-index: 1;
+	width: 360px;
+	min-height: 712px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: #FFFFFF;
+	padding: 30px 10px 71px;
+}
+
+#u6637
+{
+	z-index: 129;
+	width: 379px;
+	height: 45px;
+	border-color: #000000;
+	background-color: #5A0000;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+#u6645
+{
+	z-index: 142;
+	width: 1px;
+	height: 45px;
+	border-color: #000000;
+	background-color: #5A0000;
+	position: fixed;
+	top: 0px;
+	left: 379px;
+}
+
+#u6643
+{
+	z-index: 140;
+	width: 29px;
+	position: fixed;
+	top: 12px;
+	left: 265px;
+}
+
+#u6639
+{
+	z-index: 136;
+	width: 30px;
+	position: fixed;
+	top: 12px;
+	left: 302px;
+}
+
+#u6638-6
+{
+	z-index: 130;
+	width: 213px;
+	min-height: 16px;
+	line-height: 19px;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 300;
+	position: fixed;
+	top: 16px;
+	left: 7px;
+}
+
+#u6638
+{
+	color: #FFFFFF;
+}
+
+#u6641
+{
+	z-index: 138;
+	width: 31px;
+	position: fixed;
+	top: 12px;
+	left: 340px;
+}
+
+#ourmanifesto
+{
+	margin-left: 164px;
+	position: relative;
+}
+
+#u6633
+{
+	z-index: 125;
+	width: 206px;
+	position: fixed;
+	top: 39px;
+	left: 69px;
+}
+
+#u6544
+{
+	z-index: 53;
+	width: 379px;
+	height: 104px;
+	border-color: #000000;
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 45px;
+	left: 0px;
+}
+
+#u7323
+{
+	z-index: 143;
+	width: 153px;
+	height: 91px;
+	position: fixed;
+	top: 51px;
+	left: 93px;
+}
+
+.ie #u7323
+{
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
+}
+
+#u6635
+{
+	z-index: 127;
+	width: 107px;
+	position: fixed;
+	top: 48px;
+	left: 248px;
+}
+
+#pamphletu6546
+{
+	z-index: 55;
+	width: 0.01px;
+	height: 45px;
+	padding-bottom: 332px;
+	position: fixed;
+	top: 77px;
+	left: 0px;
+}
+
+#u6549
+{
+	z-index: 56;
+	width: 23px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 29px;
+	left: 30px;
+}
+
+#u6550
+{
+	position: absolute;
+	width: 23px;
+	border-color: #DEDEDE;
+	background-color: #FFFFFF;
+	top: -29px;
+	left: -30px;
+	padding: 29px 35px 27px 30px;
+}
+
+#u6550.PamphletThumbSelected
+{
+	border-color: #999999;
+	background-color: #FFFFFF;
+	margin: 0px;
+}
+
+#u6551
+{
+	z-index: 58;
+	width: 23px;
+	height: 3px;
+	border-color: #000000;
+	background-color: #721919;
+	position: relative;
+}
+
+#u6550.PamphletThumbSelected #u6551
+{
+	margin: 0px;
+}
+
+#u6553
+{
+	z-index: 59;
+	width: 23px;
+	height: 3px;
+	border-color: #000000;
+	background-color: #721919;
+	margin-top: 3px;
+	position: relative;
+}
+
+#u6550.PamphletThumbSelected #u6553
+{
+	margin: 3px 0px 0px;
+}
+
+#u6552
+{
+	z-index: 60;
+	width: 23px;
+	height: 3px;
+	border-color: #000000;
+	background-color: #721919;
+	margin-top: 4px;
+	position: relative;
+}
+
+#u6550.PamphletThumbSelected #u6552
+{
+	margin: 4px 0px 0px;
+}
+
+#u6554
+{
+	position: absolute;
+	width: 381px;
+	top: 73px;
+}
+
+#u6554popup
+{
+	z-index: 61;
+}
+
+#u6555
+{
+	z-index: 62;
+	width: 379px;
+	height: 303px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #530000;
+	background-color: #FFFFFF;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#menuu6556
+{
+	z-index: 63;
+	width: 166px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 3px;
+	left: 2px;
+}
+
+#u6564
+{
+	width: 166px;
+	position: relative;
+}
+
+#u6565
+{
+	width: 166px;
+	min-height: 17px;
+	border-color: #7F7F7F;
+	background-color: #FFFFFF;
+	padding-bottom: 17px;
+	position: relative;
+	margin-right: -10000px;
+	top: 0px;
+	left: 0px;
+}
+
+#u6567-5
+{
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	top: 8px;
+	left: 0px;
+}
+
+#u6558,#u6604,#u6611,#u6618
+{
+	width: 166px;
+	min-height: 17px;
+	border-color: #7F7F7F;
+	background-color: #FFFFFF;
+	padding-bottom: 17px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u6561-6,#u6605-5,#u6613-6,#u6619-6
+{
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	top: 8px;
+}
+
+#u6597,#u6572
+{
+	width: 166px;
+	min-height: 17px;
+	border-color: #7F7F7F;
+	background-color: #FFFFFF;
+	padding-bottom: 18px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u6557,#u6603,#u6610,#u6617,#u6596,#u6571,#u8303
+{
+	width: 166px;
+	margin-top: 2px;
+	position: relative;
+}
+
+#u8304
+{
+	width: 166px;
+	min-height: 17px;
+	border-color: #7F7F7F;
+	background-color: #FFFFFF;
+	padding-bottom: 18px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u6565.MuseMenuActive,#u6572.MuseMenuActive,#u8304.MuseMenuActive
+{
+	margin: 0px -10000px 0px 0px;
+}
+
+#u6600-6,#u6574-6,#u8306-5
+{
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	top: 9px;
+}
+
+.MenuItem,.PamphletWidget .ThumbGroup .Thumb, .PamphletNextButton, .PamphletPrevButton, .PamphletCloseButton /* unifiedNavBar */
+{
+	cursor: pointer;
+}
+
+#pscroll
+{
+	width: 0.01px;
+	margin-left: 101px;
+	margin-top: 88px;
+	position: relative;
+}
+
+#scroll
+{
+	position: relative;
+	width: 22px;
+	margin-right: -10000px;
+}
+
+#u6543-3
+{
+	z-index: 50;
+	width: 5px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 4px;
+	left: 135px;
+}
+
+#u6545
+{
+	z-index: 54;
+	width: 381px;
+	height: 1px;
+	border-color: #000000;
+	background-color: #741B19;
+	position: fixed;
+	top: 149px;
+	left: 0px;
+}
+
+#pu5821-4
+{
+	width: 0.01px;
+	margin-left: 70px;
+	margin-top: 27px;
+	position: relative;
+}
+
+#u5821-4
+{
+	z-index: 2;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u5831-3
+{
+	z-index: 45;
+	width: 5px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 13px;
+	left: 167px;
+}
+
+#u5822-37
+{
+	z-index: 6;
+	width: 352px;
+	color: #000000;
+	font-size: 14px;
+	text-align: justify;
+	font-family: open-sans, sans-serif;
+	font-weight: 400;
+	margin-left: 4px;
+	margin-top: 26px;
+	position: relative;
+}
+
+#u5822-2,#u5822-10,#u5822-12,#u5822-17,#u5822-28,#u5822-30,#u5822-32,#u5822-34
+{
+	font-weight: 700;
+}
+
+#u5823
+{
+	z-index: 43;
+	width: 360px;
+	margin-top: 15px;
+	position: relative;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

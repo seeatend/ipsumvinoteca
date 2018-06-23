@@ -1,0 +1,312 @@
+<manifest alg="2" build="30" opt="false" iceEnabled="true">
+  <folder name="tablet">
+    <folder name="css">
+      <file name="index.css" crc="66523659" ref="tablet>index"/>
+      <file name="wine-bar.css" crc="43214324" ref="tablet>wine-bar"/>
+      <file name="restaurant.css" crc="3946869401" ref="tablet>restaurant"/>
+      <file name="contact-us.css" crc="3782521326" ref="tablet>contact-us"/>
+      <file name="iefonts_contact-us.css" crc="420722204" ref="tablet>contact-us"/>
+      <file name="events.css" crc="3828928696" ref="tablet>events"/>
+      <file name="about.css" crc="4281355914" ref="tablet>about"/>
+    </folder>
+    <file name="index.html" crc="193095654" mt="1493895278586" redirect="true"/>
+    <file name="about.html" crc="4188745891" mt="1494405143021" redirect="true"/>
+    <file name="wine-bar.html" crc="4111148204" mt="1494405169768" redirect="true"/>
+    <file name="restaurant.html" crc="468159388" mt="1494405201560" redirect="true"/>
+    <file name="events.html" crc="3779379869" mt="1494405217230" redirect="true"/>
+    <file name="contact-us.html" crc="3915825152" mt="1492789279003" redirect="true"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="61441199" ref="phone>index"/>
+      <file name="events.css" crc="4277898345" ref="phone>events"/>
+      <file name="wine-bar.css" crc="63284363" ref="phone>wine-bar"/>
+      <file name="contact-us.css" crc="23443285" ref="phone>contact-us"/>
+      <file name="restaurant.css" crc="279545359" ref="phone>restaurant"/>
+      <file name="iefonts_contact-us.css" crc="4135128707" ref="phone>contact-us"/>
+      <file name="about.css" crc="499197176" ref="phone>about"/>
+    </folder>
+    <file name="index.html" crc="342590569" mt="1492780806770" redirect="true"/>
+    <file name="wine-bar.html" crc="3924377597" mt="1494405169784" redirect="true"/>
+    <file name="restaurant.html" crc="187153464" mt="1494405201567" redirect="true"/>
+    <file name="events.html" crc="4145108574" mt="1494405217230" redirect="true"/>
+    <file name="contact-us.html" crc="179663420" mt="1492780806802" redirect="true"/>
+    <file name="about.html" crc="4015617977" mt="1495534852213" redirect="true"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="240353450"/>
+    <file name="index.css" crc="4229821144" ref="index"/>
+    <file name="ipsum-vinoteca-blog.css" crc="314189773" ref="ipsum-vinoteca-blog"/>
+    <file name="contact-us.css" crc="529631457" ref="contact-us"/>
+    <file name="about.css" crc="479735664" ref="about"/>
+    <file name="events.css" crc="83287107" ref="events"/>
+    <file name="restaurant.css" crc="4089566238" ref="restaurant"/>
+    <file name="wine-bar.css" crc="224472161" ref="wine-bar"/>
+  </folder>
+  <folder name="assets">
+    <file name="samplemenu.pdf" crc="483323192" mt="1457517420000"/>
+    <file name="samplemenu2.pdf" crc="483323192" mt="1457517420000"/>
+    <file name="samplemenu-prices.pdf" crc="356377827" mt="1462547791000"/>
+    <file name="platter-read-menu.pdf" crc="4037420124" mt="1474553751000"/>
+    <file name="balsamic-menu.pdf" crc="392183846" mt="1475144871000"/>
+    <file name="christmas-lunch-menu.pdf" crc="157080566" mt="1475138369000"/>
+    <file name="new-years-lunch-menu.pdf" crc="68678609" mt="1475753105000"/>
+    <file name="nov-ipsum-tasting-menu.pdf" crc="479464770" mt="1477928922000"/>
+    <file name="valentines-day-menu-2016.pdf" crc="4250985198" mt="1452340521000"/>
+    <file name="italy-abroad-logo-large.pdf" crc="4262053901" mt="1421683880000"/>
+    <file name="ipsum-tasting-menu-website-link.pdf" crc="3779170505" mt="1454604379000"/>
+    <file name="a4-print-ipsum-menu.pdf" crc="227868746" mt="1455008414000"/>
+    <file name="mothers-day-menu-2016.pdf" crc="4242036616" mt="1455528223000"/>
+    <file name="valentines-day-menu-2017-final-copy.pdf" crc="4265502194" mt="1484566358000"/>
+    <file name="mother-s-day-menu-2017.pdf" crc="4235859654" mt="1487929216000"/>
+    <file name="sample-menu.pdf" crc="3953196546" mt="1487938560000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:phone>index:tablet>index:phone>wine-bar:phone>restaurant:phone>events:phone>contact-us:ipsum-vinoteca-blog:phone>about:tablet>about:tablet>wine-bar:tablet>restaurant:tablet>events:tablet>contact-us:contact-us:events:restaurant:wine-bar:about"/>
+    <file name="museutils.js" crc="4291592202" ref="index:phone>index:tablet>index:phone>wine-bar:phone>restaurant:phone>events:phone>contact-us:ipsum-vinoteca-blog:phone>about:tablet>about:tablet>wine-bar:tablet>restaurant:tablet>events:tablet>contact-us:contact-us:events:restaurant:wine-bar:about"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="phone>index:phone>wine-bar:phone>restaurant:phone>events:phone>contact-us:phone>about"/>
+    <file name="webpro.js" crc="3903299128" ref="phone>wine-bar:phone>restaurant:phone>contact-us:tablet>events:tablet>contact-us:tablet>about:tablet>wine-bar:tablet>restaurant"/>
+    <file name="musewpslideshow.js" crc="138381373" ref="phone>wine-bar:phone>restaurant:phone>contact-us:tablet>about:tablet>wine-bar:tablet>restaurant:tablet>events:tablet>contact-us"/>
+    <file name="jquery.museoverlay.js" crc="4250894771" ref="phone>wine-bar:phone>restaurant:phone>contact-us:tablet>about:tablet>wine-bar:tablet>restaurant:tablet>events:tablet>contact-us"/>
+    <file name="touchswipe.js" crc="4156838003" ref="phone>wine-bar:phone>restaurant:phone>contact-us:tablet>about:tablet>wine-bar:tablet>restaurant:tablet>events:tablet>contact-us"/>
+    <file name="jquery.tobrowserwidth.js" crc="3842421675" ref="tablet>about:tablet>wine-bar:tablet>restaurant:tablet>events:tablet>contact-us:contact-us:events:restaurant:wine-bar:about"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="index:ipsum-vinoteca-blog:phone>about:phone>wine-bar:phone>restaurant:phone>events:phone>contact-us:tablet>about:tablet>wine-bar:tablet>restaurant:tablet>events:tablet>contact-us:contact-us:events:restaurant:wine-bar:about"/>
+    <file name="jquery.scrolleffects.js" crc="4006931061" ref="phone>wine-bar:phone>restaurant:phone>events:phone>contact-us:phone>about"/>
+    <file name="museredirect.js" crc="4101519497" ref="index:contact-us:events:restaurant:wine-bar:about"/>
+    <file name="jquery.musemenu.js" crc="3788803530" ref="phone>wine-bar:phone>restaurant:phone>contact-us:tablet>about:tablet>wine-bar:tablet>restaurant:tablet>events:tablet>contact-us"/>
+  </folder>
+  <folder name="images">
+    <file name="facebook icon.png" crc="264979871" ref="phone>wine-bar:phone>restaurant:phone>events:phone>contact-us:phone>about:tablet>contact-us"/>
+    <file name="instagram icon.png" crc="31500312" ref="phone>contact-us:tablet>contact-us"/>
+    <file name="blank.gif" crc="4208392903" ref="tablet>wine-bar:tablet>restaurant:tablet>events:tablet>contact-us:contact-us:events:restaurant:wine-bar:about"/>
+    <file name="twitter icon.png" crc="51234837" ref="phone>wine-bar:phone>restaurant:phone>events:phone>contact-us:phone>about:tablet>contact-us"/>
+    <file name="trip advisor icon circle.png" crc="223602272" ref="phone>wine-bar:phone>restaurant:phone>events:phone>contact-us:phone>about:tablet>contact-us"/>
+    <file name="ipsum new logo1 web.png" crc="4100324099" ref="tablet>index:phone>index:phone>about:phone>wine-bar:phone>restaurant:phone>events:phone>contact-us:contact-us:events:restaurant:wine-bar:about"/>
+    <file name="logo award ipsumbigger.jpg" crc="93307486" ref="tablet>index:index"/>
+    <file name="logo award ipsumbigger.png" crc="293396603" ref="phone>wine-bar:phone>restaurant:phone>events:phone>contact-us:phone>about"/>
+    <file name="ipsum new logo1sss.png" crc="4276122697" ref="ipsum-vinoteca-blog"/>
+    <file name="ipsum new logo1sss2.png" crc="29399775" ref="ipsum-vinoteca-blog"/>
+    <file name="ipsum-vinoteca-favicon.ico" crc="127210801" ref="phone>index:tablet>index:index"/>
+    <file name="u3251.png" crc="4064854261" ref="phone>index"/>
+    <file name="u3252.png" crc="4064854261" ref="phone>index"/>
+    <file name="u3253.png" crc="4064854261" ref="phone>index"/>
+    <file name="u3144.png" crc="4115186586" ref="index"/>
+    <file name="u3238.png" crc="4115186586" ref="index"/>
+    <file name="u3239.png" crc="4115186586" ref="index"/>
+    <file name="ipsum new logo.jpg" crc="4147185047" ref="index"/>
+    <file name="wine-bar-favicon.ico" crc="201684082" ref="phone>wine-bar:wine-bar"/>
+    <file name="restaurant-favicon.ico" crc="201684082" ref="phone>restaurant:restaurant"/>
+    <file name="events-favicon.ico" crc="201684082" ref="phone>events:events"/>
+    <file name="contact-us-favicon.ico" crc="201684082" ref="phone>contact-us:tablet>contact-us:contact-us"/>
+    <file name="u1466-4.png" crc="4267350217" ref="phone>index"/>
+    <file name="u3242-4.png" crc="110484916" ref="phone>index"/>
+    <file name="u3244-4.png" crc="4284418595" ref="phone>index"/>
+    <file name="u3245-4.png" crc="3978156581" ref="phone>index"/>
+    <file name="u3246-4.png" crc="62842008" ref="phone>index"/>
+    <file name="u5821-4.png" crc="261122675" ref="phone>about"/>
+    <file name="u6813-5.png" crc="182460630" ref="phone>wine-bar"/>
+    <file name="u6820-7-a.png" crc="150750193" ref="phone>wine-bar"/>
+    <file name="u6837-5.png" crc="3855491271" ref="phone>wine-bar"/>
+    <file name="u6790-6.png" crc="530342429" ref="phone>wine-bar"/>
+    <file name="u6843-5.png" crc="68518211" ref="phone>wine-bar"/>
+    <file name="u6851-6.png" crc="24350389" ref="phone>wine-bar"/>
+    <file name="u5826-4.png" crc="4043870207" ref="phone>wine-bar"/>
+    <file name="u6923-6.png" crc="237378052" ref="phone>restaurant"/>
+    <file name="u6930-7.png" crc="4191807639" ref="phone>restaurant"/>
+    <file name="u6947-7-a.png" crc="4074002391" ref="phone>restaurant"/>
+    <file name="u6900-6.png" crc="4155294298" ref="phone>restaurant"/>
+    <file name="u6953-6.png" crc="376532555" ref="phone>restaurant"/>
+    <file name="u6961-6.png" crc="3995192140" ref="phone>restaurant"/>
+    <file name="u6034-5.png" crc="3767183582" ref="phone>restaurant"/>
+    <file name="u6243-4.png" crc="3774490186" ref="phone>events"/>
+    <file name="u7253-5.png" crc="4047814294" ref="phone>contact-us"/>
+    <file name="u7260-6.png" crc="368544990" ref="phone>contact-us"/>
+    <file name="u7277-7.png" crc="4103582360" ref="phone>contact-us"/>
+    <file name="u7230-6.png" crc="228984580" ref="phone>contact-us"/>
+    <file name="u7283-6-a.png" crc="339841777" ref="phone>contact-us"/>
+    <file name="u7291-6.png" crc="240493852" ref="phone>contact-us"/>
+    <file name="u6395-4.png" crc="248569123" ref="phone>contact-us"/>
+    <file name="u6403-4.png" crc="200607917" ref="phone>contact-us"/>
+    <file name="u6387-4.png" crc="510694832" ref="phone>contact-us"/>
+    <file name="u6407-4.png" crc="3845610276" ref="phone>contact-us"/>
+    <file name="u6384-4.png" crc="4014104031" ref="phone>contact-us"/>
+    <file name="u6386-4.png" crc="4145871852" ref="phone>contact-us"/>
+    <file name="u6385-4.png" crc="401462133" ref="phone>contact-us"/>
+    <file name="u6401-4.png" crc="166953744" ref="phone>contact-us"/>
+    <file name="u3449-4.png" crc="3831922441" ref="tablet>index"/>
+    <file name="u3452-4.png" crc="497941118" ref="tablet>index"/>
+    <file name="u3453-4.png" crc="4167757384" ref="tablet>index"/>
+    <file name="u3454-4.png" crc="3777541980" ref="tablet>index"/>
+    <file name="u3455-4.png" crc="3820773300" ref="tablet>index"/>
+    <file name="u1042-4.png" crc="3834669074" ref="tablet>about"/>
+    <file name="u925-4.png" crc="4198919786" ref="index"/>
+    <file name="u3143-4.png" crc="20720025" ref="index"/>
+    <file name="u3145-4.png" crc="3996512370" ref="index"/>
+    <file name="u3148-4.png" crc="240214214" ref="index"/>
+    <file name="u3150-4.png" crc="4129366529" ref="index"/>
+    <file name="ipsum-vinoteca-blog-favicon.ico" crc="4082435445" ref="ipsum-vinoteca-blog"/>
+    <file name="about-favicon.ico" crc="4193607357" ref="phone>about"/>
+    <file name="banner image 2 new.jpg" crc="4057960085" ref="phone>about:about"/>
+    <file name="u5822-24.png" crc="488129757" ref="phone>about"/>
+    <file name="banner image new.jpg" crc="3997441775" ref="phone>wine-bar:wine-bar"/>
+    <file name="menu board b-w 2.jpg" crc="339607896" ref="phone>restaurant:restaurant"/>
+    <file name="u6244-10.png" crc="4039749169" ref="phone>events"/>
+    <file name="banner image new colour 2.jpg" crc="168894530" ref="phone>contact-us:events"/>
+    <file name="ipsum new logo1 web245x150.png" crc="87242771" ref="tablet>about"/>
+    <file name="banner image 2 new-u13615-fr.jpg" crc="100025540" ref="tablet>about"/>
+    <file name="banner image new-u14097-fr.jpg" crc="3999872158" ref="tablet>wine-bar"/>
+    <file name="u13987-4.png" crc="163483843" ref="tablet>wine-bar"/>
+    <file name="menu board b-w 2-u14384-fr.jpg" crc="3891721248" ref="tablet>restaurant"/>
+    <file name="u14452-4.png" crc="4201008357" ref="tablet>restaurant"/>
+    <file name="u14606-4.png" crc="258487121" ref="tablet>events"/>
+    <file name="u14619-10.png" crc="340385827" ref="tablet>events"/>
+    <file name="banner image new colour 2-u15031-fr.jpg" crc="3796781750" ref="tablet>contact-us"/>
+    <file name="u14921-4.png" crc="347633570" ref="tablet>contact-us"/>
+    <file name="u14933-4.png" crc="396275214" ref="tablet>contact-us"/>
+    <file name="u15098-4.png" crc="53729955" ref="tablet>contact-us"/>
+    <file name="u15023-4.png" crc="36870252" ref="tablet>contact-us"/>
+    <file name="u12320_states.png" crc="4049402703" ref="contact-us"/>
+    <file name="u12320_states-r.png" crc="210802006" ref="contact-us"/>
+    <file name="u12321_states.png" crc="393233120" ref="contact-us"/>
+    <file name="u12321_states-r.png" crc="228444647" ref="contact-us"/>
+    <file name="u12323_states.png" crc="513890081" ref="contact-us"/>
+    <file name="u12323_states-r.png" crc="4281578401" ref="contact-us"/>
+    <file name="u12325-4.png" crc="3256089" ref="contact-us"/>
+    <file name="u12116-4.png" crc="4000507635" ref="contact-us"/>
+    <file name="u12380-20.png" crc="4094712804" ref="contact-us"/>
+    <file name="u12379-20.png" crc="3866319288" ref="contact-us"/>
+    <file name="ipsum new logo1 web2.png" crc="4274571515" ref="contact-us:tablet>about:tablet>wine-bar:tablet>restaurant:tablet>events:tablet>contact-us:events:restaurant:wine-bar:about"/>
+    <file name="fullsizerender 9 edit.jpg" crc="68310334" ref="about"/>
+    <file name="img_3379 edit.jpg" crc="472156796" ref="about"/>
+    <file name="img_1578 edit.jpg" crc="70277437" ref="restaurant"/>
+    <file name="img_3813 edit.jpg" crc="506589793" ref="restaurant"/>
+    <file name="img_3499 edit.jpg" crc="371198659" ref="restaurant"/>
+    <file name="white.jpg" crc="4264301641" ref="contact-us:events:restaurant:wine-bar:about"/>
+    <file name="u15487-5-a.png" crc="3915252700" ref="tablet>about"/>
+    <file name="u15470-6.png" crc="319289452" ref="tablet>about"/>
+    <file name="u15478-5.png" crc="462591073" ref="tablet>about"/>
+    <file name="u15495-6.png" crc="121271952" ref="tablet>about"/>
+    <file name="u15447-6.png" crc="4131084650" ref="tablet>about"/>
+    <file name="u15465-6.png" crc="4252422394" ref="tablet>about"/>
+    <file name="u15635.png" crc="3915252700" ref="tablet>wine-bar"/>
+    <file name="u15635-a.png" crc="3915252700" ref="tablet>wine-bar"/>
+    <file name="u15675-6-a.png" crc="319289452" ref="tablet>wine-bar"/>
+    <file name="u15682-5.png" crc="462591073" ref="tablet>wine-bar"/>
+    <file name="u15651-6.png" crc="121271952" ref="tablet>wine-bar"/>
+    <file name="u15659-6.png" crc="4131084650" ref="tablet>wine-bar"/>
+    <file name="u15644-6.png" crc="4252422394" ref="tablet>wine-bar"/>
+    <file name="u15783.png" crc="3915252700" ref="tablet>restaurant"/>
+    <file name="u15783-a.png" crc="3915252700" ref="tablet>restaurant"/>
+    <file name="u15823-6.png" crc="319289452" ref="tablet>restaurant"/>
+    <file name="u15830-5-a.png" crc="462591073" ref="tablet>restaurant"/>
+    <file name="u15799-6.png" crc="121271952" ref="tablet>restaurant"/>
+    <file name="u15807-6.png" crc="4131084650" ref="tablet>restaurant"/>
+    <file name="u15792-6.png" crc="4252422394" ref="tablet>restaurant"/>
+    <file name="u15857.png" crc="3915252700" ref="tablet>events"/>
+    <file name="u15857-a.png" crc="3915252700" ref="tablet>events"/>
+    <file name="u15897-6.png" crc="319289452" ref="tablet>events"/>
+    <file name="u15904-5.png" crc="462591073" ref="tablet>events"/>
+    <file name="u15873-6-a.png" crc="121271952" ref="tablet>events"/>
+    <file name="u15881-6.png" crc="4131084650" ref="tablet>events"/>
+    <file name="u15866-6.png" crc="4252422394" ref="tablet>events"/>
+    <file name="u15931.png" crc="3915252700" ref="tablet>contact-us"/>
+    <file name="u15931-a.png" crc="3915252700" ref="tablet>contact-us"/>
+    <file name="u15971-6.png" crc="319289452" ref="tablet>contact-us"/>
+    <file name="u15978-5.png" crc="462591073" ref="tablet>contact-us"/>
+    <file name="u15947-6.png" crc="121271952" ref="tablet>contact-us"/>
+    <file name="u15955-6-a.png" crc="4131084650" ref="tablet>contact-us"/>
+    <file name="u15940-6.png" crc="4252422394" ref="tablet>contact-us"/>
+    <file name="logo award ipsumbigger165x165.png" crc="3884359703" ref="phone>index"/>
+    <file name="banner image 2 new762x377.png" crc="101851305" ref="about"/>
+    <file name="u16309-6.png" crc="4161857879" ref="tablet>about"/>
+    <file name="u16310-6.png" crc="83491149" ref="tablet>about"/>
+    <file name="fullsizerender 9 edit376x282.png" crc="399037511" ref="tablet>about"/>
+    <file name="img_3379 edit376x282.png" crc="3887193171" ref="tablet>about"/>
+    <file name="u16311-6.png" crc="5966110" ref="tablet>about"/>
+    <file name="u16312-10.png" crc="3887195086" ref="tablet>about"/>
+    <file name="banner image 2 new505x250.png" crc="104103620" ref="tablet>about"/>
+    <file name="u16322-20.png" crc="229525740" ref="tablet>about"/>
+    <file name="u16321-20.png" crc="232502224" ref="tablet>about"/>
+    <file name="img_2248 edit cropped707x296.png" crc="20208682" ref="tablet>wine-bar"/>
+    <file name="u16347-12.png" crc="3968063876" ref="tablet>wine-bar"/>
+    <file name="img_1224 hdr375x375.png" crc="359642989" ref="tablet>wine-bar"/>
+    <file name="img_1774 edit377x502.png" crc="4272487757" ref="tablet>wine-bar"/>
+    <file name="u16367-4.png" crc="3787921930" ref="tablet>wine-bar"/>
+    <file name="u16356-20.png" crc="229525740" ref="tablet>wine-bar"/>
+    <file name="u16355-20.png" crc="232502224" ref="tablet>wine-bar"/>
+    <file name="fullsizerender 3375x375.png" crc="140693027" ref="tablet>restaurant"/>
+    <file name="img_1578 edit376x282.png" crc="3828927248" ref="tablet>restaurant"/>
+    <file name="u16384-4.png" crc="4185015519" ref="tablet>restaurant"/>
+    <file name="u16385-4.png" crc="4039136518" ref="tablet>restaurant"/>
+    <file name="img_3813 edit375x282.png" crc="99486319" ref="tablet>restaurant"/>
+    <file name="img_3499 edit375x282.png" crc="4283571960" ref="tablet>restaurant"/>
+    <file name="u16412-20.png" crc="229525740" ref="tablet>restaurant"/>
+    <file name="u16411-20.png" crc="232502224" ref="tablet>restaurant"/>
+    <file name="u16430-20.png" crc="229525740" ref="tablet>events"/>
+    <file name="u16429-20.png" crc="232502224" ref="tablet>events"/>
+    <file name="u16447-20.png" crc="229525740" ref="tablet>contact-us"/>
+    <file name="u16446-20.png" crc="232502224" ref="tablet>contact-us"/>
+    <file name="img_2248 edit cropped.jpg" crc="367033437" ref="wine-bar"/>
+    <file name="img_1224 hdr.jpg" crc="223947494" ref="wine-bar"/>
+    <file name="img_1774 edit.jpg" crc="4274772307" ref="wine-bar"/>
+    <file name="fullsizerender 3.jpg" crc="4067446629" ref="restaurant"/>
+    <file name="u5827-28.png" crc="402064310" ref="phone>wine-bar"/>
+    <file name="u6036-12.png" crc="460309994" ref="phone>restaurant"/>
+    <file name="u16481-10.png" crc="534600350" ref="phone>restaurant"/>
+    <file name="u16366-13.png" crc="314550320" ref="tablet>wine-bar"/>
+    <file name="u16383-7.png" crc="481013590" ref="tablet>restaurant"/>
+    <file name="u16386-9.png" crc="405474274" ref="tablet>restaurant"/>
+    <file name="chalkboard new 3.jpg" crc="4194315836" ref="phone>events"/>
+    <file name="chalkboard new 3-u14716-fr.jpg" crc="60971546" ref="tablet>events"/>
+    <file name="u16559_states.png" crc="4207018258" ref="events"/>
+    <file name="u16559_states-r.png" crc="13585268" ref="events"/>
+    <file name="u16560_states.png" crc="393233120" ref="events"/>
+    <file name="u16560_states-r.png" crc="228444647" ref="events"/>
+    <file name="u16564-4.png" crc="45212714" ref="events"/>
+    <file name="u16556-10.png" crc="282998392" ref="events"/>
+    <file name="u16554-20.png" crc="4094712804" ref="events"/>
+    <file name="u16553-20.png" crc="3866319288" ref="events"/>
+    <file name="u16654_states.png" crc="455256872" ref="restaurant"/>
+    <file name="u16654_states-r.png" crc="336971293" ref="restaurant"/>
+    <file name="u16657_states.png" crc="309798068" ref="restaurant"/>
+    <file name="u16657_states-r.png" crc="346545416" ref="restaurant"/>
+    <file name="u16659-4.png" crc="45212714" ref="restaurant"/>
+    <file name="u16636-7.png" crc="167085868" ref="restaurant"/>
+    <file name="u16642-4.png" crc="4187834313" ref="restaurant"/>
+    <file name="u16643-4.png" crc="245374695" ref="restaurant"/>
+    <file name="u16635-9.png" crc="152947268" ref="restaurant"/>
+    <file name="u16641-20.png" crc="4094712804" ref="restaurant"/>
+    <file name="u16640-20.png" crc="3866319288" ref="restaurant"/>
+    <file name="u16751_states.png" crc="393233120" ref="wine-bar"/>
+    <file name="u16751_states-r.png" crc="228444647" ref="wine-bar"/>
+    <file name="u16753_states.png" crc="513890081" ref="wine-bar"/>
+    <file name="u16753_states-r.png" crc="4281578401" ref="wine-bar"/>
+    <file name="u16755-4.png" crc="45212714" ref="wine-bar"/>
+    <file name="u16739-12.png" crc="498921721" ref="wine-bar"/>
+    <file name="u16740-15.png" crc="196426377" ref="wine-bar"/>
+    <file name="u16741-4.png" crc="4241938158" ref="wine-bar"/>
+    <file name="u16738-20.png" crc="4094712804" ref="wine-bar"/>
+    <file name="u16737-20.png" crc="3866319288" ref="wine-bar"/>
+    <file name="u16878_states.png" crc="378668472" ref="about"/>
+    <file name="u16878_states-r.png" crc="4191126332" ref="about"/>
+    <file name="u16879_states.png" crc="393233120" ref="about"/>
+    <file name="u16879_states-r.png" crc="228444647" ref="about"/>
+    <file name="u16881_states.png" crc="451254476" ref="about"/>
+    <file name="u16881_states-r.png" crc="136148235" ref="about"/>
+    <file name="u16883-4.png" crc="45212714" ref="about"/>
+    <file name="u16868-6.png" crc="431024127" ref="about"/>
+    <file name="u16869-6.png" crc="266897996" ref="about"/>
+    <file name="u16870-6.png" crc="3863420346" ref="about"/>
+    <file name="u16871-10.png" crc="27563707" ref="about"/>
+    <file name="u16867-20.png" crc="4094712804" ref="about"/>
+    <file name="u16866-20.png" crc="3866319288" ref="about"/>
+    <file name="chalkboard new 2.jpg" crc="3830404782" ref="events"/>
+  </folder>
+  <file name="index.html" crc="3906471354" mt="1495534616488" redirect="true"/>
+  <file name="ipsum-vinoteca-blog.html" crc="3914937804" mt="1495534616488" redirect="true"/>
+  <file name="contact-us.html" crc="15664512" mt="1495534617300" redirect="true"/>
+  <file name="events.html" crc="3955327413" mt="1495536538614" redirect="true"/>
+  <file name="restaurant.html" crc="3858858723" mt="1495535199908" redirect="true"/>
+  <file name="wine-bar.html" crc="382884291" mt="1495535362396" redirect="true"/>
+  <file name="about.html" crc="95053968" mt="1495535164899" redirect="true"/>
+</manifest>

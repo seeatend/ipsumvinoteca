@@ -1,0 +1,1 @@
+[14-Feb-2018 12:11:22 UTC] PHP Fatal error:  Can't use function return value in write context in /home/opusvinoteca/public_html/application/libraries/Adminauth.php on line 48

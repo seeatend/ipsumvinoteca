@@ -1,0 +1,181 @@
+<div id="banner" class="overlay">
+    <img class="img-fluid" src="<?php echo base_url(); ?>assets/front/assets/images/banner/banner.jpg" alt="Banner">
+    <div class="description">
+        <div class="container">
+            <h1>
+                Wine bar and restaurant
+            </h1>
+            <h4 class="h4">
+                welcomes you!
+            </h4>
+            <a href="javascript:void(0)" id="book" class="btn btn-primary button">
+                Book online
+            </a>
+        </div>
+    </div>       
+</div>
+<!-- /Banner -->
+
+<!-- Content -->
+<div id="content">		
+    <!-- Section Side One images-->
+    <section class="section pattern-2 text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-md-12">
+                    <article class="post">
+                        <h2 class="h2 divider">WELCOME TO IPSUM VINOTECA</h2>
+                        <p>Located in an historic building opposite the new Victoria Quarter in Leeds, in the middle of the Art Quarter, just across the road from the West Yorkshire Playhouse Theatre, Ipsum Vinoteca is the result of Andrea’s vision made reality by an Italian architect. <br><br>
+Andrea’s vision was a bright open space where the emphasis was on the food and the company, a place where people would sit together and talk and laugh, for hours. The architect opted for wood and stainless steel, two material, two colors, the light yellow of the wood and the dark grey of the stainless steel, two colors that sit on the opposite side on the color wheel and also fit with the history and character of the building hosting Ipsum Vinoteca and its concept.<br><br>
+Open 7 days a week, from morning to late night, Ipsum Vinoteca is a place for every time of the day, a place to enjoy and have a conversation. 
+ </p>
+                    </article> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Section -->
+
+    <!-- Section Three Column Layout -->
+    <section class="section p-0 three-column-layout">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col">
+                    <img class="img-fluid" src="<?php echo base_url(); ?>assets/front/assets/images/image1.jpg" alt="image"> 
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="<?php echo base_url(); ?>assets/front/assets/images/image6.jpg" alt="image"> 
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="<?php echo base_url(); ?>assets/front/assets/images/image2.jpg" alt="image"> 
+                </div>            
+            </div>
+        </div>
+    </section>
+    <!-- /Section -->
+
+    <!-- Section Post -->
+    <section class="section text-center">
+        <div class="container-fluid p-0">
+            <article class="post">
+                <div class="container">
+                    <h2 class="h2 divider">The restaurant and bar</h2>
+                    <p>Our restaurant, with only 5 tables, wants to offers a unique experience with a daily changing menu  with a handful of freshly cooked dishes featuring the best and freshest locally sourced ingredients, with the option of having pairing wines or choosing your favourite, from our 300+ only Italian, wine list. <br><br>
+The restaurant is by booking only due to the daily menu and is open 7 days a week, lunch and dinner. If our meat, fish and vegetables are locally sourced, all our cheeses and charcuteries are imported directly from small Italian producers.
+</p>
+                    <p>Our award winning wine bar, separate from the restaurant and open to everyone, not just our restaurant guests, is open all day 7 days a week, offering everything from coffees to sandwiches, to pasta, to cheeses and charcuteries platters all freshly made accompanied by one of the biggest selections of wines, craft beer, spirits, soft drink in the UK all made by Italian small producers. <br><br>
+Ipsum Vinoteca is also a shop and all our offering is available to take home as well as drink and eat in, all imported by our sister company, <a href="https://www.italyabroad.com/" target="_blank"> Italyabroad.com </a>
+</p>             
+                </div>              
+            </article> 
+        </div>
+    </section>
+    <!-- /Section -->
+
+    <!-- Section -->
+    <section class="slideshow">
+        <div class="container-fluid p-0">               
+            <div id="carousel" class="overlay carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-fluid" src="<?php echo base_url(); ?>assets/front/assets/images/slide1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="<?php echo base_url(); ?>assets/front/assets/images/slide2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="<?php echo base_url(); ?>assets/front/assets/images/slide3.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="<?php echo base_url(); ?>assets/front/assets/images/slide4.jpg" alt="Fourth slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="<?php echo base_url(); ?>assets/front/assets/images/slide5.jpg" alt="Fifth slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="<?php echo base_url(); ?>assets/front/assets/images/slide6.jpg" alt="Six slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="<?php echo base_url(); ?>assets/front/assets/images/slide7.jpg" alt="Seven slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="<?php echo base_url(); ?>assets/front/assets/images/slide8.jpg" alt="Eight slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="<?php echo base_url(); ?>assets/front/assets/images/slide9.jpg" alt="Eight slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="<?php echo base_url(); ?>assets/front/assets/images/slide10.jpg" alt="Eight slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Section -->
+
+    <!-- Section Book Online -->
+    <section id="book-online" class="section text-center">           
+        <div class="container">
+            <h2 class="h2 divider divider2 mb-xl-5">book online</h2>
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-6">                 
+                    <form class="form mt-5 mb-4" method="POST" action="">
+                        <div class="form-group">
+                            <input name="customer_name" required="" type="text" class="form-control" placeholder="Please enter your name">
+                        </div>
+                        <div class="form-group">
+                            <input name="customer_phone" required="" type="tel" class="form-control" placeholder="Please enter your phone number">
+                        </div>
+                        <div class="form-group">
+                            <input name="customer_email" required="" type="email" class="form-control" placeholder="Please enter your email">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="customer_message" required="" class="form-control" id="exampleFormControlTextarea1" placeholder="Please enter your message"></textarea>      
+                        </div>
+                        <div class="form-group">
+                            Booking will be confirmed by telephone, if booking for the same day please ring
+                        </div>
+                        <div class="form-group">
+                            <script src='https://www.google.com/recaptcha/api.js'></script>
+                            <div class="g-recaptcha" data-sitekey="6LcfXEYUAAAAAFw6K_BJrcdPfn8eWWx9YPsW09HT"></div>
+                        </div>
+<div class="alert alert-danger alert-dismissible fade show captchaMessage" style="display:none;" role="alert">
+                     Please tick the checkbox that you see above.
+                    </div>
+                        <button type="submit" class="btn btn-primary button bg-grey" onClick="return formSubmit()">send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>           
+    <!-- Section -->
+
+
+</div>
+<script src="<?php echo base_url()?>assets/front/assets/javascripts/vendor/bootstrap.min.js"></script>
+<script>
+    $('#book').click(function () {
+        $('html,body').animate({
+            scrollTop: $("#book-online").offset().top
+        }, 1000);
+
+    });
+function formSubmit(){
+if($("#g-recaptcha-response").val()!=""){
+return true;
+} else {
+$(".captchaMessage").show();
+
+return false;
+}
+
+}
+</script>

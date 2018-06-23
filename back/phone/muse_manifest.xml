@@ -1,0 +1,182 @@
+<manifest alg="2" build="704" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="4252699040"/>
+    <file name="index.css" crc="141278353" ref="index"/>
+    <file name="blog.css" crc="292780286" ref="blog"/>
+    <file name="ipsum-vinoteca.css" crc="43365692" ref="ipsum-vinoteca"/>
+    <file name="iefonts_ipsum-vinoteca.css" crc="4025779551" ref="ipsum-vinoteca"/>
+  </folder>
+  <folder name="assets">
+    <file name="wine-dinner-ciavolich-facebook.jpg" crc="473181174" mt="1430124030000"/>
+    <file name="ipsum-new-years-eve-menu-0810-award-pdf.pdf" crc="3888409456" mt="1444293098000"/>
+    <file name="ipsum-christmas-day-menu-0810-award-pdf.pdf" crc="512691851" mt="1444293236000"/>
+    <file name="2210truffle-night-pdf-new.pdf" crc="338213824" mt="1445523458000"/>
+    <file name="2210friuli-night-pdf.pdf" crc="249938781" mt="1445509340000"/>
+    <file name="2210sparkling-evening-pdf.pdf" crc="3919168874" mt="1445508122000"/>
+    <file name="christmas.pdf" crc="427680216" mt="1445589718000"/>
+    <file name="ipsum-new-years-eve-menu-0810-award-jpg.jpg" crc="3983199217" mt="1444293112000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="museredirect.js" crc="236897542" ref="blog:index:ipsum-vinoteca"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="blog:index:tablet>index:tablet>ipsum-vinoteca:tablet>blog:phone>index:phone>ipsum-vinoteca:phone>blog:ipsum-vinoteca"/>
+    <file name="museutils.js" crc="3992981318" ref="blog:index:tablet>index:tablet>ipsum-vinoteca:tablet>blog:phone>index:phone>ipsum-vinoteca:phone>blog:ipsum-vinoteca"/>
+    <file name="jquery.scrolleffects.js" crc="4278609653" ref="ipsum-vinoteca"/>
+    <file name="jquery.tobrowserwidth.js" crc="317228635" ref="blog:tablet>ipsum-vinoteca:tablet>blog:phone>blog:ipsum-vinoteca"/>
+    <file name="webpro.js" crc="197321703" ref="blog:tablet>ipsum-vinoteca:tablet>blog:phone>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="musewpslideshow.js" crc="4283859919" ref="tablet>ipsum-vinoteca:phone>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="jquery.museoverlay.js" crc="3836522771" ref="tablet>ipsum-vinoteca:phone>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="touchswipe.js" crc="4156838003" ref="tablet>ipsum-vinoteca:phone>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3956991090" ref="blog:tablet>ipsum-vinoteca:tablet>blog:phone>blog:index:ipsum-vinoteca"/>
+    <file name="form_check.php" crc="4259398763" ref="blog:tablet>ipsum-vinoteca:tablet>blog:ipsum-vinoteca"/>
+    <file name="form_throttle.php" crc="497742690" ref="blog:tablet>ipsum-vinoteca:tablet>blog:ipsum-vinoteca"/>
+    <file name="form-u12826.php" crc="3995418187" ref="ipsum-vinoteca"/>
+    <file name="form-u12890.php" crc="95123505" ref="ipsum-vinoteca"/>
+    <file name="pie.js" crc="3827607177" ref="tablet>ipsum-vinoteca:phone>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="blog:index:tablet>index:tablet>ipsum-vinoteca:tablet>blog:phone>index:phone>ipsum-vinoteca:phone>blog:ipsum-vinoteca"/>
+    <file name="form-u14815.php" crc="3925095816" ref="blog"/>
+    <file name="form-u13435.php" crc="435557405" ref="tablet>ipsum-vinoteca"/>
+    <file name="form-u13489.php" crc="246694777" ref="tablet>ipsum-vinoteca"/>
+    <file name="form-u14932.php" crc="462986805" ref="tablet>blog"/>
+  </folder>
+  <folder name="images">
+    <file name="ipsum right new banner.png" crc="3954509430" ref="ipsum-vinoteca"/>
+    <file name="ipsum left new banner.png" crc="358801441" ref="ipsum-vinoteca"/>
+    <file name="ipsum new logo1 web160x98.png" crc="287080765" ref="ipsum-vinoteca"/>
+    <file name="line.png" crc="3891660688" ref="ipsum-vinoteca"/>
+    <file name="wine-bar-photo.jpg" crc="346029632" ref="tablet>ipsum-vinoteca:phone>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="blank.gif" crc="4208392903" ref="tablet>ipsum-vinoteca:phone>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="fullsizerender.jpg" crc="4117885716" ref="ipsum-vinoteca"/>
+    <file name="img_1833.jpg" crc="4148430667" ref="ipsum-vinoteca"/>
+    <file name="fullsizerender - copy.jpg" crc="4014201893" ref="ipsum-vinoteca"/>
+    <file name="fullsizerender (1ss).jpg" crc="3950739945" ref="ipsum-vinoteca"/>
+    <file name="loading.gif" crc="3815509949" ref="tablet>ipsum-vinoteca:phone>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="facebook icon.png" crc="264979871" ref="tablet>blog:phone>ipsum-vinoteca:phone>blog:ipsum-vinoteca"/>
+    <file name="pasted image 620x372.jpg" crc="3817574795" ref="tablet>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="instagram icon new.png" crc="3832984689" ref="ipsum-vinoteca"/>
+    <file name="trip advisor icon.png" crc="512668567" ref="tablet>ipsum-vinoteca:phone>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="top bottom new.png" crc="3973337110" ref="tablet>ipsum-vinoteca:phone>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="img_1801-u20017.jpg" crc="3974353296" ref="ipsum-vinoteca"/>
+    <file name="fullsizerender2.jpg" crc="3960010590" ref="ipsum-vinoteca"/>
+    <file name="img_1696-u20156.jpg" crc="353851054" ref="ipsum-vinoteca"/>
+    <file name="img_1332.jpg" crc="31513488" ref="ipsum-vinoteca"/>
+    <file name="img_1838-u20107.jpg" crc="3803972185" ref="ipsum-vinoteca"/>
+    <file name="plank-bigger.png" crc="3854620198" ref="ipsum-vinoteca"/>
+    <file name="slide1-2-.jpg" crc="19653683" ref="tablet>ipsum-vinoteca:phone>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="brickss bb.png" crc="467342787" ref="tablet>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="squid-u20037.jpg" crc="141986335" ref="ipsum-vinoteca"/>
+    <file name="fullsizerender-u20027.jpg" crc="336953479" ref="ipsum-vinoteca"/>
+    <file name="clock circle.png" crc="241024118" ref="tablet>ipsum-vinoteca:phone>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="phone circle.png" crc="4004911881" ref="tablet>ipsum-vinoteca:phone>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="tag map circle.png" crc="4042585184" ref="tablet>ipsum-vinoteca:phone>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="email circle.png" crc="4031056129" ref="tablet>ipsum-vinoteca:phone>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="u12870-17.png" crc="3976339312" ref="ipsum-vinoteca"/>
+    <file name="u12870-17-r.png" crc="3925887289" ref="ipsum-vinoteca"/>
+    <file name="u12870-17-m.png" crc="3925887289" ref="ipsum-vinoteca"/>
+    <file name="u12870-17-fs.png" crc="438533058" ref="ipsum-vinoteca"/>
+    <file name="u12899-17.png" crc="3866871292" ref="ipsum-vinoteca"/>
+    <file name="u12899-17-r.png" crc="86191606" ref="ipsum-vinoteca"/>
+    <file name="u12899-17-m.png" crc="86191606" ref="ipsum-vinoteca"/>
+    <file name="u12899-17-fs.png" crc="4240451743" ref="ipsum-vinoteca"/>
+    <file name="10917062_370858009762382_2857026260065486589_n-1-.jpg" crc="4030546844" ref="ipsum-vinoteca"/>
+    <file name="img_1789.jpg" crc="134322768" ref="ipsum-vinoteca"/>
+    <file name="fullsizerender (1).jpg" crc="4015332558" ref="ipsum-vinoteca"/>
+    <file name="fullsizerender (2).jpg" crc="3913368311" ref="ipsum-vinoteca"/>
+    <file name="wednesday-birra-new.jpg" crc="4074923827" ref="ipsum-vinoteca"/>
+    <file name="j-on-t-withoput-logo.jpg" crc="367225228" ref="ipsum-vinoteca"/>
+    <file name="cheese-sunday-new.jpg" crc="4076360448" ref="ipsum-vinoteca"/>
+    <file name="twitter icon.png" crc="51234837" ref="phone>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="instagram icon.png" crc="31500312" ref="tablet>blog:phone>ipsum-vinoteca:phone>blog:ipsum-vinoteca"/>
+    <file name="ipsum new logo1sss-u11982-fr.png" crc="13817426" ref="blog:ipsum-vinoteca"/>
+    <file name="trip advisor icon circle.png" crc="223602272" ref="tablet>ipsum-vinoteca:phone>ipsum-vinoteca:ipsum-vinoteca"/>
+    <file name="u14826-17.png" crc="4189605637" ref="blog"/>
+    <file name="u14826-17-r.png" crc="57237775" ref="blog"/>
+    <file name="u14826-17-m.png" crc="57237775" ref="blog"/>
+    <file name="u14826-17-fs.png" crc="3853557373" ref="blog"/>
+    <file name="top bottom.png" crc="3925103215" ref="blog:tablet>ipsum-vinoteca:tablet>blog:phone>blog"/>
+    <file name="ipsum new logo1sss-u12006-r-fr.png" crc="4133185310" ref="blog"/>
+    <file name="ipsum new logo1 web.png" crc="373045835" ref="index:tablet>index:tablet>ipsum-vinoteca"/>
+    <file name="burger-chips.jpg" crc="493337264" ref="tablet>ipsum-vinoteca"/>
+    <file name="fullsizerender22.jpg" crc="3758245771" ref="tablet>ipsum-vinoteca"/>
+    <file name="img_17462.jpg" crc="214701457" ref="tablet>ipsum-vinoteca"/>
+    <file name="img_18332.jpg" crc="3900977784" ref="tablet>ipsum-vinoteca"/>
+    <file name="facebook icon2.png" crc="264979871" ref="tablet>ipsum-vinoteca"/>
+    <file name="instagram icon2.png" crc="31500312" ref="tablet>ipsum-vinoteca"/>
+    <file name="img_1801-u20054.jpg" crc="85494959" ref="tablet>ipsum-vinoteca"/>
+    <file name="fullsizerenderdd-u19922.jpg" crc="3939068627" ref="tablet>ipsum-vinoteca"/>
+    <file name="fullsizerender23.jpg" crc="359447171" ref="tablet>ipsum-vinoteca"/>
+    <file name="img_1696-u20342.jpg" crc="508473513" ref="tablet>ipsum-vinoteca"/>
+    <file name="img_1332240x320.jpg" crc="44986328" ref="tablet>ipsum-vinoteca"/>
+    <file name="img_1838-u20340.jpg" crc="3807062990" ref="tablet>ipsum-vinoteca"/>
+    <file name="img_1786-u20069.jpg" crc="4008691970" ref="tablet>ipsum-vinoteca"/>
+    <file name="squid-u20071.jpg" crc="4132707955" ref="tablet>ipsum-vinoteca"/>
+    <file name="fullsizerender (4).jpg" crc="3880879572" ref="tablet>ipsum-vinoteca"/>
+    <file name="img_1636-u20073.jpg" crc="179982219" ref="tablet>ipsum-vinoteca"/>
+    <file name="img_1696-u20086.jpg" crc="3820257753" ref="tablet>ipsum-vinoteca"/>
+    <file name="img_6259.jpg" crc="3842188650" ref="tablet>ipsum-vinoteca"/>
+    <file name="wp_20141110_013.jpg" crc="4132941182" ref="tablet>ipsum-vinoteca"/>
+    <file name="wp_20141110_004.jpg" crc="3860859137" ref="tablet>ipsum-vinoteca"/>
+    <file name="u13470-17.png" crc="14861407" ref="tablet>ipsum-vinoteca"/>
+    <file name="u13470-17-r.png" crc="57287770" ref="tablet>ipsum-vinoteca"/>
+    <file name="u13470-17-m.png" crc="57287770" ref="tablet>ipsum-vinoteca"/>
+    <file name="u13470-17-fs.png" crc="4251604285" ref="tablet>ipsum-vinoteca"/>
+    <file name="u13516-17.png" crc="3820473140" ref="tablet>ipsum-vinoteca"/>
+    <file name="u13516-17-r.png" crc="217023923" ref="tablet>ipsum-vinoteca"/>
+    <file name="u13516-17-m.png" crc="217023923" ref="tablet>ipsum-vinoteca"/>
+    <file name="u13516-17-fs.png" crc="3858356837" ref="tablet>ipsum-vinoteca"/>
+    <file name="twitter icon2.png" crc="51234837" ref="tablet>ipsum-vinoteca"/>
+    <file name="u14967-17.png" crc="4189605637" ref="tablet>blog"/>
+    <file name="u14967-17-r.png" crc="57237775" ref="tablet>blog"/>
+    <file name="u14967-17-m.png" crc="57237775" ref="tablet>blog"/>
+    <file name="u14967-17-fs.png" crc="3853557373" ref="tablet>blog"/>
+    <file name="pasted image 620x37232x25.jpg" crc="4013288514" ref="tablet>blog"/>
+    <file name="ipsum new logo1sss-u14912-fr.png" crc="306056752" ref="tablet>blog:phone>blog"/>
+    <file name="ipsum new logo1sss-u14912-r-fr.png" crc="535547875" ref="tablet>blog:phone>blog"/>
+    <file name="ipsum new logo1 web340x207.png" crc="379268250" ref="phone>index"/>
+    <file name="ipsum new logo1 web355x216.png" crc="42579257" ref="phone>ipsum-vinoteca"/>
+    <file name="pasted image 620x37223x20.jpg" crc="4155321538" ref="phone>ipsum-vinoteca"/>
+    <file name="burger-chips2.jpg" crc="4116515289" ref="phone>ipsum-vinoteca"/>
+    <file name="fullsizerender24.jpg" crc="4008619965" ref="phone>ipsum-vinoteca"/>
+    <file name="img_17463.jpg" crc="3817045028" ref="phone>ipsum-vinoteca"/>
+    <file name="img_1801.jpg" crc="4051045671" ref="phone>ipsum-vinoteca"/>
+    <file name="fullsizerender (2)d-u19287.jpg" crc="256094941" ref="phone>ipsum-vinoteca"/>
+    <file name="img_6259307x410.jpg" crc="3862413210" ref="phone>ipsum-vinoteca"/>
+    <file name="wp_20141110_013336x189.jpg" crc="4127488011" ref="phone>ipsum-vinoteca"/>
+    <file name="wp_20141110_004336x189.jpg" crc="3769953449" ref="phone>ipsum-vinoteca"/>
+    <file name="logo award ipsum.jpg" crc="36860029" ref="ipsum-vinoteca"/>
+    <file name="mussels.jpg" crc="4069681221" ref="ipsum-vinoteca"/>
+    <file name="restaurant1right.jpg" crc="123231832" ref="ipsum-vinoteca"/>
+    <file name="restaurant3.jpg" crc="420135503" ref="ipsum-vinoteca"/>
+    <file name="shop.jpg" crc="4041547952" ref="ipsum-vinoteca"/>
+    <file name="logo award ipsumbigger-u20460-fr.jpg" crc="203892411" ref="index"/>
+    <file name="fullsizerender3.jpg" crc="341423769" ref="tablet>ipsum-vinoteca:phone>ipsum-vinoteca"/>
+    <file name="google plus.jpg" crc="3959021714" ref="tablet>blog:phone>blog"/>
+    <file name="fullsizerender (2)2.jpg" crc="4108957813" ref="phone>ipsum-vinoteca"/>
+    <file name="fullsizerender25.jpg" crc="4204201302" ref="phone>ipsum-vinoteca"/>
+    <file name="ipsum-vinoteca-favicon.ico" crc="241500516" ref="ipsum-vinoteca"/>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="ipsum-vinoteca.css" crc="4243140596" ref="tablet>ipsum-vinoteca"/>
+      <file name="iefonts_ipsum-vinoteca.css" crc="4191631363" ref="tablet>ipsum-vinoteca"/>
+      <file name="index.css" crc="4055605087" ref="tablet>index"/>
+      <file name="blog.css" crc="448126115" ref="tablet>blog"/>
+    </folder>
+    <file name="index.html" crc="249815563" mt="1445684274043"/>
+    <file name="ipsum-vinoteca.html" crc="4016488796" mt="1445687622410"/>
+    <file name="blog.html" crc="3993576820" mt="1445687624008"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="ipsum-vinoteca.css" crc="4163384681" ref="phone>ipsum-vinoteca"/>
+      <file name="iefonts_ipsum-vinoteca.css" crc="396665612" ref="phone>ipsum-vinoteca"/>
+      <file name="blog.css" crc="456835694" ref="phone>blog"/>
+      <file name="index.css" crc="173710487" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="72473129" mt="1445684274159"/>
+    <file name="ipsum-vinoteca.html" crc="84516293" mt="1445687592941"/>
+    <file name="blog.html" crc="4237568743" mt="1445687592946"/>
+  </folder>
+  <file name="blog.html" crc="3814610559" mt="1445687614941"/>
+  <file name="index.html" crc="4157603582" mt="1445687592901"/>
+  <file name="ipsum-vinoteca.html" crc="3759131652" mt="1445687612940"/>
+</manifest>

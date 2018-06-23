@@ -1,0 +1,603 @@
+@-ms-viewport
+{
+	width: 380px;
+}
+
+@-webkit-viewport
+{
+	width: 380px;
+}
+
+@-o-viewport
+{
+	width: 380px;
+}
+
+@-moz-viewport
+{
+	width: 380px;
+}
+
+@viewport
+{
+	width: 380px;
+}
+
+.html
+{
+	background-color: #7F7F7F;
+}
+
+#page
+{
+	z-index: 1;
+	width: 365px;
+	min-height: 862.9929975929671px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: #FFFFFF;
+	padding: 30px 8px 71.00700240703293px 7px;
+}
+
+#u7077
+{
+	z-index: 126;
+	width: 379px;
+	height: 45px;
+	border-color: #000000;
+	background-color: #5A0000;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+#u7085
+{
+	z-index: 139;
+	width: 1px;
+	height: 45px;
+	border-color: #000000;
+	background-color: #5A0000;
+	position: fixed;
+	top: 0px;
+	left: 379px;
+}
+
+#u7083
+{
+	z-index: 137;
+	width: 29px;
+	position: fixed;
+	top: 12px;
+	left: 265px;
+}
+
+#u7079
+{
+	z-index: 133;
+	width: 30px;
+	position: fixed;
+	top: 12px;
+	left: 302px;
+}
+
+#u7078-6
+{
+	z-index: 127;
+	width: 210px;
+	min-height: 16px;
+	line-height: 19px;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 300;
+	position: fixed;
+	top: 16px;
+	left: 7px;
+}
+
+#u7078
+{
+	color: #FFFFFF;
+}
+
+#u7081
+{
+	z-index: 135;
+	width: 31px;
+	position: fixed;
+	top: 12px;
+	left: 340px;
+}
+
+#ourmanifesto
+{
+	margin-left: 167px;
+	position: relative;
+}
+
+#u7073
+{
+	z-index: 122;
+	width: 206px;
+	position: fixed;
+	top: 39px;
+	left: 69px;
+}
+
+#u6984
+{
+	z-index: 47;
+	width: 379px;
+	height: 104px;
+	border-color: #000000;
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 45px;
+	left: 0px;
+}
+
+#u7320
+{
+	z-index: 140;
+	width: 153px;
+	height: 91px;
+	position: fixed;
+	top: 51px;
+	left: 98px;
+}
+
+.ie #u7320
+{
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
+}
+
+#u7075
+{
+	z-index: 124;
+	width: 107px;
+	position: fixed;
+	top: 48px;
+	left: 248px;
+}
+
+#pamphletu6986
+{
+	z-index: 49;
+	width: 0.01px;
+	height: 45px;
+	padding-bottom: 332px;
+	position: fixed;
+	top: 77px;
+	left: 0px;
+}
+
+#u6994
+{
+	z-index: 50;
+	width: 23px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 29px;
+	left: 30px;
+}
+
+#u6995
+{
+	position: absolute;
+	width: 23px;
+	border-color: #DEDEDE;
+	background-color: #FFFFFF;
+	top: -29px;
+	left: -30px;
+	padding: 29px 35px 27px 30px;
+}
+
+#u6995.PamphletThumbSelected
+{
+	border-color: #999999;
+	background-color: #FFFFFF;
+	margin: 0px;
+}
+
+#u6998
+{
+	z-index: 52;
+	width: 23px;
+	height: 3px;
+	border-color: #000000;
+	background-color: #721919;
+	position: relative;
+}
+
+#u6995.PamphletThumbSelected #u6998
+{
+	margin: 0px;
+}
+
+#u6997
+{
+	z-index: 53;
+	width: 23px;
+	height: 3px;
+	border-color: #000000;
+	background-color: #721919;
+	margin-top: 3px;
+	position: relative;
+}
+
+#u6995.PamphletThumbSelected #u6997
+{
+	margin: 3px 0px 0px;
+}
+
+#u6996
+{
+	z-index: 54;
+	width: 23px;
+	height: 3px;
+	border-color: #000000;
+	background-color: #721919;
+	margin-top: 4px;
+	position: relative;
+}
+
+#u6995.PamphletThumbSelected #u6996
+{
+	margin: 4px 0px 0px;
+}
+
+#u7003
+{
+	position: absolute;
+	width: 381px;
+	top: 73px;
+}
+
+#u7003popup
+{
+	z-index: 55;
+}
+
+#u7004
+{
+	z-index: 56;
+	width: 379px;
+	height: 303px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #530000;
+	background-color: #FFFFFF;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#menuu7005
+{
+	z-index: 57;
+	width: 160px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 3px;
+	left: 2px;
+}
+
+#u7031
+{
+	width: 160px;
+	position: relative;
+}
+
+#u7046
+{
+	width: 160px;
+	min-height: 17px;
+	border-color: #7F7F7F;
+	background-color: #FFFFFF;
+	padding-bottom: 17px;
+	position: relative;
+	margin-right: -10000px;
+	top: 0px;
+	left: 0px;
+}
+
+#u7047-6
+{
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	top: 8px;
+	left: 0px;
+}
+
+#u7032,#u7039,#u7055,#u7007
+{
+	width: 160px;
+	min-height: 17px;
+	border-color: #7F7F7F;
+	background-color: #FFFFFF;
+	padding-bottom: 17px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u7033-6,#u7040-7,#u7057-5,#u7010-6
+{
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	top: 8px;
+}
+
+#u7060,#u7069
+{
+	width: 160px;
+	min-height: 17px;
+	border-color: #7F7F7F;
+	background-color: #FFFFFF;
+	padding-bottom: 18px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u7038,#u7052,#u7045,#u7006,#u7059,#u7066,#u8331
+{
+	width: 160px;
+	margin-top: 2px;
+	position: relative;
+}
+
+#u8332
+{
+	width: 160px;
+	min-height: 17px;
+	border-color: #7F7F7F;
+	background-color: #FFFFFF;
+	padding-bottom: 18px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u7046.MuseMenuActive,#u7069.MuseMenuActive,#u8332.MuseMenuActive
+{
+	margin: 0px -10000px 0px 0px;
+}
+
+#u7063-6,#u7071-6,#u8335-6
+{
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	top: 9px;
+}
+
+.MenuItem,.PamphletWidget .ThumbGroup .Thumb, .PamphletNextButton, .PamphletPrevButton, .PamphletCloseButton /* unifiedNavBar */
+{
+	cursor: pointer;
+}
+
+#pscroll
+{
+	width: 0.01px;
+	margin-left: 104px;
+	margin-top: 88px;
+	position: relative;
+}
+
+#scroll
+{
+	position: relative;
+	width: 22px;
+	margin-right: -10000px;
+}
+
+#u6983-3
+{
+	z-index: 44;
+	width: 5px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 4px;
+	left: 135px;
+}
+
+#u6985
+{
+	z-index: 48;
+	width: 381px;
+	height: 1px;
+	border-color: #000000;
+	background-color: #741B19;
+	position: fixed;
+	top: 149px;
+	left: 0px;
+}
+
+#pu6138-4
+{
+	width: 0.01px;
+	margin-left: 133px;
+	margin-top: 8px;
+	position: relative;
+}
+
+#u6138-4
+{
+	z-index: 2;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 8px;
+}
+
+#u6146-3
+{
+	z-index: 39;
+	width: 5px;
+	position: relative;
+	margin-right: -10000px;
+	left: 107px;
+}
+
+#pu6139-12
+{
+	width: 0.01px;
+	margin-top: 5px;
+	position: relative;
+}
+
+#u6139-12
+{
+	z-index: 6;
+	width: 362px;
+	min-height: 202px;
+	color: #000000;
+	text-align: center;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u6139-10
+{
+	font-size: 17px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 300;
+}
+
+#u6143
+{
+	z-index: 37;
+	width: 345px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: transparent;
+	margin-bottom: -1px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 217px;
+	left: 9px;
+}
+
+#pu6140-14
+{
+	width: 0.01px;
+	margin-top: 35px;
+	position: relative;
+}
+
+#u6140-14
+{
+	z-index: 18;
+	width: 365px;
+	min-height: 264px;
+	color: #000000;
+	text-align: center;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u6139,#u6139-7,#u6140-5
+{
+	font-size: 14px;
+	letter-spacing: 0px;
+	font-family: open-sans, sans-serif;
+	font-weight: 400;
+}
+
+#u6139-3,#u6139-5,#u6140-3
+{
+	font-weight: 700;
+}
+
+#u6139-8,#u6139-9,#u6140,#u6140-6,#u6140-7,#u6140-8
+{
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0px;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 300;
+}
+
+#u6140-9,#u6140-10,#u6140-11
+{
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0px;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 700;
+}
+
+#u6140-12
+{
+	font-size: 17px;
+	line-height: 20px;
+	font-family: esteban, serif;
+	font-weight: 700;
+}
+
+#u6141
+{
+	z-index: 32;
+	width: 196px;
+	padding-bottom: 75px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 84px;
+	left: 83px;
+	background: transparent url("../../images/red%20shop%20now%20button.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u6141:hover
+{
+	margin: 84px -10000px 0px 0px;
+	background: transparent url("../../images/red%20shop%20now%20button2.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u6141:active
+{
+	margin: 84px -10000px 0px 0px;
+	background: transparent url("../../images/red%20shop%20now%20button3.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u6141.MuseLinkActive
+{
+	margin: 84px -10000px 0px 0px;
+	background: transparent url("../../images/red%20shop%20now%20button4.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u6142-4
+{
+	z-index: 33;
+	width: 192px;
+	min-height: 41px;
+	line-height: 36px;
+	font-size: 30px;
+	color: #FFFFFF;
+	font-family: open-sans, sans-serif;
+	font-weight: 400;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 48px;
+	left: 10px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

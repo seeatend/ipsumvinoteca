@@ -1,0 +1,450 @@
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1290px;
+	min-height: 1781.6999999999998px;
+	background-image: none;
+	border-style: none;
+	border-color: transparent;
+	background-color: #FFFFFF;
+	padding-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-top: 7px;
+}
+
+#u16653-3
+{
+	z-index: 83;
+	width: 1490px;
+	min-height: 92px;
+	border-style: none;
+	border-color: transparent;
+	color: #000000;
+	position: fixed;
+	top: -1px;
+	left: 50%;
+	margin-left: -50%;
+	background: #FFFFFF url("../images/white.jpg") no-repeat left top;
+	background-size: cover !important;
+}
+
+#u16660
+{
+	z-index: 108;
+	width: 164px;
+	position: fixed;
+	top: 1px;
+	left: 50%;
+	margin-left: -678px;
+}
+
+#ptoppage2
+{
+	width: 0.01px;
+	margin-left: 660px;
+	position: relative;
+}
+
+#toppage2,#toppage,#toppage3,#toppage4
+{
+	position: relative;
+	width: 22px;
+	margin-right: -10000px;
+}
+
+#u16656-4
+{
+	z-index: 93;
+	width: 77px;
+	min-height: 23px;
+	background-color: transparent;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: left;
+	font-weight: bold;
+	position: fixed;
+	top: 37px;
+	left: 50%;
+	margin-left: -110px;
+}
+
+#u16656-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 23px;
+	margin: 0px 0px 0px -110px;
+}
+
+#u16656
+{
+	font-weight: normal;
+}
+
+#ppu16654
+{
+	width: 0.01px;
+	padding-bottom: 23px;
+	margin-left: 645px;
+	margin-top: 11px;
+	position: relative;
+}
+
+#u16654
+{
+	z-index: 87;
+	background: url("../images/u16654_states.png") no-repeat 0px 0px;
+	position: fixed;
+	top: 36px;
+	left: 50%;
+	margin-left: 0px;
+}
+
+#u16654_states
+{
+	height: 23px;
+	width: 103px;
+	vertical-align: top;
+}
+
+#u16654:hover #u16654_states
+{
+	background: url("../images/u16654_states-r.png") no-repeat 0px 0px;
+}
+
+#u16657
+{
+	z-index: 98;
+	background: url("../images/u16657_states.png") no-repeat 0px 0px;
+	position: fixed;
+	top: 36px;
+	left: 50%;
+	margin-left: 286px;
+}
+
+#u16657_states
+{
+	height: 23px;
+	width: 89px;
+	vertical-align: top;
+}
+
+#u16657:hover #u16657_states
+{
+	background: url("../images/u16657_states-r.png") no-repeat 0px 0px;
+}
+
+#pu16655-4
+{
+	width: 0.01px;
+	padding-bottom: 23px;
+	margin-left: 781px;
+	top: -23px;
+	margin-bottom: -23px;
+	position: relative;
+}
+
+#u16655-4
+{
+	z-index: 89;
+	width: 118px;
+	min-height: 23px;
+	background-color: transparent;
+	color: #000000;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: left;
+	position: fixed;
+	top: 36px;
+	left: 50%;
+	margin-left: 136px;
+}
+
+#u16655-4.MuseLinkActive
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 23px;
+	margin: 0px 0px 0px 136px;
+}
+
+#u16655-4.MuseLinkActive p
+{
+	text-align: left;
+	text-decoration: underline;
+}
+
+#u16658-4
+{
+	z-index: 100;
+	width: 121px;
+	min-height: 23px;
+	background-color: transparent;
+	color: #000000;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: left;
+	position: fixed;
+	top: 36px;
+	left: 50%;
+	margin-left: 402px;
+}
+
+#u16658-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 23px;
+	margin: 0px 0px 0px 402px;
+}
+
+#u16656-4:hover p,#u16656-4:hover span,#u16658-4:hover p
+{
+	text-decoration: underline;
+}
+
+#u16659-4
+{
+	z-index: 104;
+	position: fixed;
+	top: 36px;
+	left: 50%;
+	margin-left: 552px;
+}
+
+#u16659-4_img
+{
+	display: block;
+	vertical-align: top;
+}
+
+#u16932
+{
+	z-index: 81;
+	width: 1290px;
+	margin-top: 32px;
+	position: relative;
+}
+
+#pu16636-7
+{
+	width: 0.01px;
+	margin-left: 37px;
+	margin-top: 49px;
+	position: relative;
+}
+
+#u16636-7
+{
+	z-index: 13;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 23px;
+}
+
+#u16644
+{
+	z-index: 71;
+	width: 565px;
+	position: relative;
+	margin-right: -10000px;
+	left: 650px;
+}
+
+#u16644_img
+{
+	margin-top: -125px;
+	margin-bottom: -64px;
+}
+
+#pu16646
+{
+	width: 0.01px;
+	margin-left: 35px;
+	margin-top: 160px;
+	position: relative;
+}
+
+#u16646
+{
+	z-index: 73;
+	width: 565px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u16642-4
+{
+	z-index: 63;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 6px;
+	left: 609px;
+}
+
+#pu16643-4
+{
+	width: 0.01px;
+	margin-left: 37px;
+	margin-top: 78px;
+	position: relative;
+}
+
+#u16643-4
+{
+	z-index: 67;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 97px;
+}
+
+#u16648
+{
+	z-index: 75;
+	width: 563px;
+	position: relative;
+	margin-right: -10000px;
+	left: 651px;
+}
+
+#u16648_clip
+{
+	overflow: hidden;
+	width: 563px;
+	height: 376px;
+}
+
+#u16648_img
+{
+	margin-top: -33px;
+	margin-bottom: -13px;
+}
+
+#pu16650
+{
+	width: 0.01px;
+	margin-left: 35px;
+	margin-top: 100px;
+	position: relative;
+}
+
+#u16650
+{
+	z-index: 77;
+	width: 565px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u16644_clip,#u16646_clip,#u16650_clip
+{
+	overflow: hidden;
+	width: 565px;
+	height: 376px;
+}
+
+#u16646_img,#u16650_img
+{
+	margin-top: -24px;
+	margin-bottom: -24px;
+}
+
+#u16635-9
+{
+	z-index: 4;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 141px;
+	left: 589px;
+}
+
+#pu16639
+{
+	width: 0.01px;
+	left: -100px;
+	margin-top: 67px;
+	position: relative;
+}
+
+#u16639
+{
+	z-index: 22;
+	width: 1490px;
+	border-color: #000000;
+	background-color: #A1ABB1;
+	padding-bottom: 13px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u16639_align_to_page
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1290px;
+	position: relative;
+	left: -100px;
+}
+
+#u16641-20
+{
+	z-index: 43;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 113px;
+	left: 293px;
+}
+
+#u16640-20
+{
+	z-index: 23;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 113px;
+	left: 975px;
+}
+
+#u16662
+{
+	z-index: 79;
+	width: 432px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 74px;
+	left: 524px;
+}
+
+#u16662_clip
+{
+	overflow: hidden;
+	width: 432px;
+	height: 226px;
+}
+
+#u16662_img
+{
+	margin-bottom: -37px;
+}
+

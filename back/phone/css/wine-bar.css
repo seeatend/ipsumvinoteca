@@ -1,0 +1,461 @@
+@-ms-viewport
+{
+	width: 380px;
+}
+
+@-webkit-viewport
+{
+	width: 380px;
+}
+
+@-o-viewport
+{
+	width: 380px;
+}
+
+@-moz-viewport
+{
+	width: 380px;
+}
+
+@viewport
+{
+	width: 380px;
+}
+
+.html
+{
+	background-color: #7F7F7F;
+}
+
+#page
+{
+	z-index: 1;
+	width: 379px;
+	min-height: 692px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: #FFFFFF;
+	padding-top: 30px;
+	padding-right: 1px;
+}
+
+#u6857
+{
+	z-index: 104;
+	width: 379px;
+	height: 45px;
+	border-color: #000000;
+	background-color: #A1ABB1;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+#u6865
+{
+	z-index: 117;
+	width: 1px;
+	height: 45px;
+	border-color: #000000;
+	background-color: #5A0000;
+	position: fixed;
+	top: 0px;
+	left: 379px;
+}
+
+#u6863
+{
+	z-index: 115;
+	width: 29px;
+	position: fixed;
+	top: 12px;
+	left: 265px;
+}
+
+#u6859
+{
+	z-index: 111;
+	width: 30px;
+	position: fixed;
+	top: 12px;
+	left: 302px;
+}
+
+#u6858-6
+{
+	z-index: 105;
+	width: 209px;
+	min-height: 16px;
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 19px;
+	font-family: open-sans-condensed, sans-serif;
+	font-weight: 300;
+	position: fixed;
+	top: 16px;
+	left: 7px;
+}
+
+#u6858
+{
+	color: #FFFFFF;
+}
+
+#u6861
+{
+	z-index: 113;
+	width: 31px;
+	position: fixed;
+	top: 12px;
+	left: 340px;
+}
+
+#ourmanifesto
+{
+	margin-left: 174px;
+	position: relative;
+}
+
+#u6853
+{
+	z-index: 100;
+	width: 206px;
+	position: fixed;
+	top: 39px;
+	left: 69px;
+}
+
+#u6764
+{
+	z-index: 43;
+	width: 379px;
+	height: 104px;
+	border-color: #000000;
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 45px;
+	left: 0px;
+}
+
+#u7322
+{
+	z-index: 118;
+	width: 153px;
+	height: 91px;
+	position: fixed;
+	top: 51px;
+	left: 93px;
+}
+
+.ie #u7322
+{
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
+}
+
+#u6855
+{
+	z-index: 102;
+	width: 107px;
+	position: fixed;
+	top: 48px;
+	left: 248px;
+}
+
+#pamphletu6766
+{
+	z-index: 45;
+	width: 0.01px;
+	height: 45px;
+	padding-bottom: 332px;
+	position: fixed;
+	top: 77px;
+	left: 0px;
+}
+
+#u6774
+{
+	z-index: 46;
+	width: 23px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 29px;
+	left: 30px;
+}
+
+#u6775
+{
+	position: absolute;
+	width: 23px;
+	border-color: #DEDEDE;
+	background-color: #FFFFFF;
+	top: -29px;
+	left: -30px;
+	padding: 29px 35px 27px 30px;
+}
+
+#u6775.PamphletThumbSelected
+{
+	border-color: #999999;
+	background-color: #FFFFFF;
+	margin: 0px;
+}
+
+#u6778
+{
+	z-index: 48;
+	width: 23px;
+	height: 3px;
+	border-color: #000000;
+	background-color: #721919;
+	position: relative;
+}
+
+#u6775.PamphletThumbSelected #u6778
+{
+	margin: 0px;
+}
+
+#u6777
+{
+	z-index: 49;
+	width: 23px;
+	height: 3px;
+	border-color: #000000;
+	background-color: #721919;
+	margin-top: 3px;
+	position: relative;
+}
+
+#u6775.PamphletThumbSelected #u6777
+{
+	margin: 3px 0px 0px;
+}
+
+#u6776
+{
+	z-index: 50;
+	width: 23px;
+	height: 3px;
+	border-color: #000000;
+	background-color: #721919;
+	margin-top: 4px;
+	position: relative;
+}
+
+#u6775.PamphletThumbSelected #u6776
+{
+	margin: 4px 0px 0px;
+}
+
+#u6783
+{
+	position: absolute;
+	width: 381px;
+	top: 73px;
+}
+
+#u6783popup
+{
+	z-index: 51;
+}
+
+#u6784
+{
+	z-index: 52;
+	width: 379px;
+	height: 303px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #A1ABB1;
+	background-color: #FFFFFF;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#menuu6785
+{
+	z-index: 53;
+	width: 161px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 3px;
+	left: -1px;
+}
+
+#u6811
+{
+	width: 161px;
+	position: relative;
+}
+
+#u6819
+{
+	width: 161px;
+	min-height: 17px;
+	border-color: #7F7F7F;
+	background-color: #FFFFFF;
+	padding-bottom: 29px;
+	position: relative;
+	margin-right: -10000px;
+	top: 0px;
+	left: 0px;
+}
+
+#u6820-7
+{
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	top: 14px;
+	left: 0px;
+}
+
+#u6812,#u6835
+{
+	width: 161px;
+	min-height: 17px;
+	border-color: #7F7F7F;
+	background-color: #FFFFFF;
+	padding-bottom: 29px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u6813-5,#u6837-5
+{
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	top: 14px;
+}
+
+#u6818,#u6832,#u6786,#u6839,#u6846
+{
+	width: 161px;
+	margin-top: 2px;
+	position: relative;
+}
+
+#u6787,#u6840,#u6849
+{
+	width: 161px;
+	min-height: 17px;
+	border-color: #7F7F7F;
+	background-color: #FFFFFF;
+	padding-bottom: 30px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u6819.MuseMenuActive,#u6849.MuseMenuActive
+{
+	margin: 0px -10000px 0px 0px;
+}
+
+#u6790-6,#u6843-5,#u6851-6
+{
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	top: 15px;
+}
+
+.MenuItem,.PamphletWidget .ThumbGroup .Thumb, .PamphletNextButton, .PamphletPrevButton, .PamphletCloseButton /* unifiedNavBar */
+{
+	cursor: pointer;
+}
+
+#pscroll
+{
+	width: 0.01px;
+	margin-left: 111px;
+	margin-top: 88px;
+	position: relative;
+}
+
+#scroll
+{
+	position: relative;
+	width: 22px;
+	margin-right: -10000px;
+}
+
+#u6763-3
+{
+	z-index: 40;
+	width: 5px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 4px;
+	left: 135px;
+}
+
+#u15262
+{
+	z-index: 2;
+	width: 379px;
+	border-style: none;
+	border-color: transparent;
+	padding-bottom: 151px;
+	top: -9px;
+	margin-bottom: -9px;
+	position: relative;
+	background: transparent url("../../images/banner%20image%20new.jpg") no-repeat center center;
+	background-size: cover !important;
+}
+
+#u5937-3
+{
+	z-index: 35;
+	width: 5px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 17px;
+	left: 246px;
+}
+
+#u6765
+{
+	z-index: 44;
+	width: 381px;
+	height: 1px;
+	border-color: #000000;
+	background-color: #A1ABB1;
+	position: fixed;
+	top: 149px;
+	left: 0px;
+}
+
+#u5826-4
+{
+	z-index: 3;
+	display: block;
+	vertical-align: top;
+	margin-left: 81px;
+	margin-top: 7px;
+	position: relative;
+}
+
+#u5827-28
+{
+	z-index: 7;
+	display: block;
+	vertical-align: top;
+	margin-left: 14px;
+	margin-top: 24px;
+	position: relative;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
