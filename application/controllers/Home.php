@@ -29,18 +29,27 @@ class Home extends CI_Controller {
         $data = array();
         $post = $this->input->post();
         if (!empty($post)) {
-            $data = array('customer_name ' => $post['customer_name'],
-                'customer_phone ' => $post['customer_phone'],
-                'customer_email' => $post['customer_email'],
-                'customer_message' => $post['customer_message']);
-            $insert_data = $this->Home_model->onlinebookingmodel($data);
-            $this->load->library('Emails');
-            $to = (!empty($post['customer_name'])) ? $post['customer_name'] : 'NA';
-            $subject = 'Contact Enquiry';
-            $msg = $this->Emails->bookingemail($post);
-            $this->Emails->sendMailViaGrid(array('to' => $to, 'name' => "Ipsumvinoteca Team", 'subject' => $subject, 'body' => $msg));
-            $this->Emails->sendMailViaGrid(array('to' => "ipsum.vinoteca@gmail.com", 'name' => "Ipsumvinoteca Team", 'subject' => $subject, 'body' => $msg));
-            $this->custom_session->custom_set_flashdata("success", "Your Mesage send Successfully");
+            if($post['action'] == 'booking') {
+                $data = array('customer_name ' => $post['customer_name'],
+                    'customer_phone ' => $post['customer_phone'],
+                    'customer_email' => $post['customer_email'],
+                    'customer_message' => $post['customer_message']);
+                $insert_data = $this->Home_model->onlinebookingmodel($data);
+                $this->load->library('Emails');
+                $to = (!empty($post['customer_name'])) ? $post['customer_name'] : 'NA';
+                $subject = 'Contact Enquiry';
+                $msg = $this->Emails->bookingemail($post);
+                $this->Emails->sendMailViaGrid(array('to' => $to, 'name' => "Ipsumvinoteca Team", 'subject' => $subject, 'body' => $msg));
+                $this->Emails->sendMailViaGrid(array('to' => "ipsum.vinoteca@gmail.com", 'name' => "Ipsumvinoteca Team", 'subject' => $subject, 'body' => $msg));
+                $this->custom_session->custom_set_flashdata("success", "Your Mesage send Successfully");
+            } else if($post['action'] == 'newsletter') {
+                $data = array('name' => $post['name'],
+                    'birth_date' => $post['birthDate'],
+                    'email' => $post['email'],
+                    'address' => $post['address']);
+                $insert_data = $this->Home_model->saveNewsletter($data);
+                $this->custom_session->custom_set_flashdata("success", "Catch newsletter successfully");
+            }
             redirect(base_url('welcome'));
         }
         $this->load->view('front/layout/head');
@@ -119,5 +128,18 @@ class Home extends CI_Controller {
         $this->load->view('front/contact_us');
         $this->load->view('front/layout/footer');
     }
-
+    public function saveAppointment(){
+        $data = array();
+        $post = $this->input->post();
+        if (!empty($post)) {
+            $data = array(
+                'title' => $post['title'],
+                'link' => $post['link'],
+                'date' => $post['date']
+            );
+            $insert_data = $this->Home_model->saveAppointment($data);
+            $this->custom_session->custom_set_flashdata("success", "Catch newsletter successfully");
+        }
+        return $insert_data;
+    }
 }

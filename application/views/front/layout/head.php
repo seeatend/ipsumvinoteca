@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/front/assets/stylesheets/main.css">
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/front/assets/stylesheets/Milkshake.css">
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/front/assets/stylesheets/font-awesome.min.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/front/assets/stylesheets/jquery-ui.min.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
         <!-- Javascript -->
@@ -25,6 +26,7 @@
          <script>
             window.jQuery || document.write('<script src="<?php echo  base_url();  ?>assets/front/assets/javascripts/vendor/jquery-1.10.2.min.js"><\/script>')
         </script>
+        <script src="<?php echo  base_url();  ?>assets/front/assets/javascripts/jquery-ui.min.js"></script>
         <link rel='shortcut icon' type='image/x-icon' href='<?php echo base_url(); ?>faviconipsum.ico' />
     </head>
 

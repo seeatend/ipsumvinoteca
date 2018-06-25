@@ -24,7 +24,8 @@ appointmentCalender = {
                 left: 'title',
                 center: 'month,agendaWeek,agendaDay',
                 right: 'prev,next,today'
-            }, select: function (start, end, jsEvent, view) {
+            }, 
+            select: function (start, end, jsEvent, view) {
                 if (moment().diff(start, 'days') > 0) {
                     $calendar.fullCalendar('unselect');
                     // or display some sort of alert
@@ -33,15 +34,13 @@ appointmentCalender = {
             },
             eventClick: function (clientEvents, jsEvent, view) {
                 $("#eventContent").dialog({
-                    autoOpen: false
-
-                }
-
+                        autoOpen: false
+                    }
                 );
-                $("#title").val(clientEvents.title);
-                $("#startTime").val(clientEvents.start);
-                $("#endTime").val(clientEvents.end);
-                $("#eventLink").val(clientEvents.url);
+                $("#eventContent #title").val(clientEvents.title);
+                $("#eventContent #startTime").val(clientEvents.start);
+                $("#eventContent #endTime").val(clientEvents.end);
+                $("#eventContent #eventLink").val(clientEvents.url);
 
                 $('#eventContent').dialog('open');
             },
@@ -85,67 +84,72 @@ appointmentCalender = {
                     $('.fc-next-button').css('opacity', 1);
                 }
             },
-                    select: function (start, end) {
-                        if (moment().diff(start, 'days') > 0) {
-                            $calendar.fullCalendar('unselect');
-                            // or display some sort of alert
-                            alert('Event is start in the past!');
+            select: function (start, end) {
+                if (moment().diff(start, 'days') > 0) {
+                    $calendar.fullCalendar('unselect');
+                    // or display some sort of alert
+                    alert('Event is start in the past!');
 
-                            return false;
-                        }
+                    return false;
+                }
+                $("#eventAdd").dialog({
+                    autoOpen: false
+                });
+                // $('#modelTitle').html("Create an Appointment");
+                // $('#modelBody').html();
+                // $('#ok_button').html('<button type="button" id="submitAppointment" class="btn btn-success">Submit</button>');
+                $('#eventAdd').dialog('open');
+                // click on the submit button
+                var $objDate = moment(start, "YYYY-MM-DD HH:mm");
+                var $objDay = $objDate.format("d")
+                var $newDateTime = $objDate.format("HH:mm");
+                var $newDate = $objDate.format("YYYY-MM-DD");
+                if ($newDateTime != '00:00') {
+                    $("#startTime").val($newDateTime);
+                }
+                $('#hid_selected_day').val($objDay);
 
-                        $('#modelTitle').html("Create an Appointment");
-                        $('#modelBody').html(htmlTemplate);
-                        $('#ok_button').html('<button type="button" id="submitAppointment" class="btn btn-success">Submit</button>');
-                        $('#modal-1').modal('show', {backdrop: 'fade'});
-                        // click on the submit button
-                        var $objDate = moment(start, "YYYY-MM-DD HH:mm");
-                        var $objDay = $objDate.format("d")
-                        var $newDateTime = $objDate.format("HH:mm");
-                        var $newDate = $objDate.format("YYYY-MM-DD");
-                        if ($newDateTime != '00:00') {
-                            $("#startTime").val($newDateTime);
-                        }
-                        $('#hid_selected_day').val($objDay);
+                var DATE_SELEECTED_DAY = '';
+                $('body').on('click', '#submitAppointment', function () {
+                    // var validatedData = $thisObj.validateClientAppointmentForm($newDate);
+                    // alert(validatedData);return false;
+                    var validatedData = {
+                        date: $newDate,
+                        title: $("#eventAdd #title").val(),
+                        link: $("#eventAdd #link").val(),
+                    }
+                    if (validatedData) {
+                        $.ajax({
+                            url: BASE_URL + "appointment/save",
+                            type: "POST",
+                            data: validatedData,
+                            beforeSend: function () {
+                                $('#submitAppointment').attr("disabled", "true");
+                            },
+                            success: function (response) {
+                                //alert(response);
+                                $("#submitAppointment").removeAttr("disabled");
+                                if (response == 'error') {
+                                    $(".alert_error").show();
+                                    $(".error_msg").html('Allready Appointment This Date & Time.Please Select Other');
+                                    //window.location.replace(BASE_URL + "appointment");  
+                                } else {
+                                    //alert('hi');
+                                    // window.location.replace(BASE_URL + "payment/" + window.btoa(response));
+                                }
+                                // window.location.replace(BASE_URL + "payment/"+response);
 
-
-
-                        var DATE_SELEECTED_DAY = '';
-                        $('body').on('click', '#submitAppointment', function () {
-                            var validatedData = $thisObj.validateClientAppointmentForm($newDate);
-                            // alert(validatedData);return false;
-                            if (validatedData) {
-                                $.ajax({
-                                            url: BASE_URL + "appointment/saveappointment",
-                                            type: "POST",
-                                    data: validatedData,
-                                    beforeSend: function () {
-                                        $('#submitAppointment').attr("disabled", "true");
-                                    },
-                                            success: function (response) {
-                                        //alert(response);
-                                                $("#submitAppointment").removeAttr("disabled");
-                                        $('#modal-1').modal('hide');
-                                        if (response == 'error') {
-                                            $(".alert_error").show();
-                                            $(".error_msg").html('Allready Appointment This Date & Time.Please Select Other');
-                                            //window.location.replace(BASE_URL + "appointment");  
-                                        } else {
-                                            //alert('hi');
-                                            window.location.replace(BASE_URL + "payment/" + window.btoa(response));
-                                        }
-                                        // window.location.replace(BASE_URL + "payment/"+response);
-
-                                        //window.location.reload(true);
-                                        $calendar.fullCalendar('renderEvent', {title: validatedData.title, start: start, end: start}, true);
-                                        $calendar.fullCalendar('unselect');
-                                    }
-                                });
+                                //window.location.reload(true);
+                                $('#eventAdd').dialog('close');
+                                $calendar.fullCalendar('renderEvent', {title: validatedData.title, start: start, end: start}, true);
+                                $calendar.fullCalendar('unselect');
                             }
                         });
+                    }
+                });
 
-                    },
-                    editable: false,
+            },
+            editable: false,
             eventLimit: true, // allow "more" link when too many events
             // color classes: [ event-blue | event-azure | event-green | event-orange | event-red ]
 
@@ -211,61 +215,61 @@ appointmentCalender = {
                     $('.fc-next-button').css('opacity', 1);
                 }
             },
-                    select: function (start, end) {
+            select: function (start, end) {
 
-                        if (moment().diff(start, 'days') > 0) {
-                            $calendar.fullCalendar('unselect');
-                            // or display some sort of alert
-                            alert('Event is start in the past!');
-                            return false;
-                        }
-                        $('#modelTitle').html("Create an Appointment");
-                        $('#modelBody').html("safsfds");
-                        $('#ok_button').html('<button type="button" id="submitAppointment" class="btn btn-success">Submit</button>');
-                        $('#modal-1').modal('show', {backdrop: 'fade'});
-                        // click on the submit button
-                        var $objDate = moment(start, "YYYY-MM-DD HH:mm");
-                        var $newDateTime = $objDate.format("HH:mm");
-                        var $newDate = $objDate.format("YYYY-MM-DD");
-                        if ($newDateTime != '00:00') {
-                            $("#startTime").val($newDateTime);
-                        }
-                        $('body').on('click', '#submitAppointment', function () {
-                            var validatedData = $thisObj.validateClientAppointmentForm($newDate);
-                            //alert(validatedData.start_datetime);return false;
-                            if (validatedData) {
-                                $.ajax({
-                                            url: BASE_URL + "user_appointment/saveappointment",
-                                            type: "POST",
-                                    data: validatedData,
-                                    beforeSend: function () {
-                                        $('#submitAppointment').attr("disabled", "true");
-                                    },
-                                            success: function (response) {
-                                        //alert(response);
-                                                $("#submitAppointment").removeAttr("disabled");
-                                        $('#modal-1').modal('hide');
-                                        if (response == 'error') {
-                                            $(".alert_error").show();
-                                            $(".error_msg").html('Allready Appointment This Date & Time.Please Select Other');
-                                            return false;
-                                            //window.location.replace(BASE_URL + "appointment");  
-                                        } else {
-                                            $(".alert_success").show();
-                                            $(".success_msg").html('Successfully Appoint');
-                                            //window.location.replace(BASE_URL + "payment/"+response);  
-                                        }
-                                        // window.location.replace(BASE_URL + "payment/"+response);
+                if (moment().diff(start, 'days') > 0) {
+                    $calendar.fullCalendar('unselect');
+                    // or display some sort of alert
+                    alert('Event is start in the past!');
+                    return false;
+                }
+                $('#modelTitle').html("Create an Appointment");
+                $('#modelBody').html("safsfds");
+                $('#ok_button').html('<button type="button" id="submitAppointment" class="btn btn-success">Submit</button>');
+                $('#modal-1').modal('show', {backdrop: 'fade'});
+                // click on the submit button
+                var $objDate = moment(start, "YYYY-MM-DD HH:mm");
+                var $newDateTime = $objDate.format("HH:mm");
+                var $newDate = $objDate.format("YYYY-MM-DD");
+                if ($newDateTime != '00:00') {
+                    $("#startTime").val($newDateTime);
+                }
+                $('body').on('click', '#submitAppointment', function () {
+                    var validatedData = $thisObj.validateClientAppointmentForm($newDate);
+                    //alert(validatedData.start_datetime);return false;
+                    if (validatedData) {
+                        $.ajax({
+                                    url: BASE_URL + "user_appointment/saveappointment",
+                                    type: "POST",
+                            data: validatedData,
+                            beforeSend: function () {
+                                $('#submitAppointment').attr("disabled", "true");
+                            },
+                                    success: function (response) {
+                                //alert(response);
+                                        $("#submitAppointment").removeAttr("disabled");
+                                $('#modal-1').modal('hide');
+                                if (response == 'error') {
+                                    $(".alert_error").show();
+                                    $(".error_msg").html('Allready Appointment This Date & Time.Please Select Other');
+                                    return false;
+                                    //window.location.replace(BASE_URL + "appointment");  
+                                } else {
+                                    $(".alert_success").show();
+                                    $(".success_msg").html('Successfully Appoint');
+                                    //window.location.replace(BASE_URL + "payment/"+response);  
+                                }
+                                // window.location.replace(BASE_URL + "payment/"+response);
 
-                                        //window.location.reload(true);
-                                        $calendar.fullCalendar('renderEvent', {title: validatedData.title, start: start, end: start}, true);
-                                        $calendar.fullCalendar('unselect');
-                                    }
-                                });
+                                //window.location.reload(true);
+                                $calendar.fullCalendar('renderEvent', {title: validatedData.title, start: start, end: start}, true);
+                                $calendar.fullCalendar('unselect');
                             }
                         });
+                    }
+                });
 
-                    },
+            },
             editable: true,
             eventLimit: true, // allow "more" link when too many events
             // color classes: [ event-blue | event-azure | event-green | event-orange | event-red ]

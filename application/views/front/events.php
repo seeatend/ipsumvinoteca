@@ -25,18 +25,61 @@
             <div class="calendar-outer">
                 <div id="fullCalendar"></div>   
             </div>
-
+            <div id="eventContent" title="Event Content" style="display:none;">
+                <form class="form" method="POST" action="">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <input required="" name="title" id="title" type="text" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <input required="" name="startTime" id="startTime" type="text" class="form-control" />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input required="" name="endTime" id="endTime" type="text" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-12">
+                            <input required="" name="link" id="link" type="text" class="form-control" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        
+            <div id="eventAdd" title="Add Event" style="display:none;">
+                <form class="form" method="POST" action="">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <input required="" name="title" id="title" type="text" class="form-control" placeholder="Event Name *" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-12">
+                            <input required="" name="link" id="link" type="text" class="form-control" placeholder="Event Link *" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-12">
+                            <button type="button" id="submitAppointment" class="btn btn-success">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </section>
     <!-- /Section -->  
 </div>
 <script src="<?php echo base_url(); ?>assets/front/assets/javascripts/moment.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/front/assets/javascripts/bootstrap-datetimepicker.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-modal/2.2.6/js/bootstrap-modal.js"></script>
 <script src="<?php echo base_url(); ?>assets/front/assets/javascripts/jquery.sharrre.js"></script>
 <script src="<?php echo base_url(); ?>assets/front/assets/javascripts/fullcalendar.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/front/assets/javascripts/app_cal.js"></script>
 <script src="<?php echo base_url(); ?>assets/front/assets/javascripts/events.js"></script>
 <script type="text/javascript">
+    var BASE_URL = "<?php echo base_url(); ?>";
     $(document).ready(function ($){
         appointmentCalender.initClientCalendar();        
     });
@@ -88,6 +131,9 @@
     }
     .fc-unthemed .fc-content{
         position: relative
+    }
+    #eventContent .form .form-group, #eventAdd .form .form-group {
+        margin: 1rem 0;
     }
 
 </style>

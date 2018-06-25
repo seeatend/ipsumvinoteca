@@ -41,7 +41,7 @@ public function login() {
         $getdata = $this->Auth_model->authenticate($datapost);
      if (!empty($getdata) && $getdata->email == $datapost['email'] && $getdata->password == $datapost['password']) {
             $this->custom_session->custom_set_userdata(array("yoga_reteat_admin" => array('id' => $getdata->id, 'user_name' => $getdata->user_name, 'admin_type' => $getdata->admin_type, 'email' => $getdata->email, 'password' => $getdata->password, 'avatar' => $getdata->avatar)));
-            //var_dump($this->custom_session->custom_userdata($getdata));exit;
+            // var_dump($this->custom_session->custom_userdata("yoga_reteat_admin"));exit;
            redirect(base_url('admin/ipsum-onlinebooking-view'));
         } 
       else {
@@ -108,85 +108,120 @@ public function login() {
         $data=array();
        $this->layout->view('admin/dashboard',$data);
     }
-   public function view_onlinebooking()
-   {
-        $this->adminauth->isLoginCheck('', SITE_SESSION_NAME);
-         $data=array();  
+    public function view_onlinebooking()
+    {
+        $this->adminauth->isLoginCheck('login', SITE_SESSION_NAME);
+        $data=array();  
         $data['arronlinebooking'] = $this->Auth_model->getonlinebookingdata();
-         $arrExtraContent = array();
+        $arrExtraContent = array();
         $arrExtraContent['js'] = array("assets/vendor_components/datatables.net/js/jquery.dataTables.min.js", "assets/vendor_components/datatables.net-bs/js/dataTables.bootstrap.min.js", "assets/js/pages/data-table.js", "assets/vendor_plugins/DataTables-1.10.15/media/js/jquery.dataTables.min.js");
         $this->layout->view('admin/view_onlinebooking', $data, $arrExtraContent);
-   }
-   public function view_bookingdetail($id='')
-   {
-      $data=array();
-      $data['getdetailbooking']=$this->Auth_model->getonlinebookingdatabyid($id);
-          $arrExtraContent = array();
+    }
+    public function view_bookingdetail($id='')
+    {
+        $data=array();
+        $data['getdetailbooking']=$this->Auth_model->getonlinebookingdatabyid($id);
+        $arrExtraContent = array();
         $arrExtraContent['js'] = array("assets/vendor_components/datatables.net/js/jquery.dataTables.min.js", "assets/vendor_components/datatables.net-bs/js/dataTables.bootstrap.min.js", "assets/js/pages/data-table.js", "assets/vendor_plugins/DataTables-1.10.15/media/js/jquery.dataTables.min.js");
         $this->layout->view('admin/onlinebooking_detail', $data, $arrExtraContent);
-   }
- public function deleteonlinebooking($deleteid='')
+    }
+    public function deleteonlinebooking($deleteid='')
     {
         $this->adminauth->isLoginCheck('', SITE_SESSION_NAME);
         $deletestyles=$this->Auth_model->deleteonlinebooking($deleteid);
-       if($deleteid)
-         {
-          $this->custom_session->custom_set_flashdata("success", "Well done! Record Delete successfully");
-         redirect(base_url('admin/ipsum-onlinebooking-view'));
-      }
-      else
-      {
-         $post=$this->input->post();
-         $count=count($post['deleteid']);
-         $countdelete=$post['deleteid'];
-         $deletearr=$this->Auth_model->deletemultipleonline($countdelete);
-         if($deletearr)
-         {
-           $this->custom_session->custom_set_flashdata("success", "Well done! $count Record delete successfully. ");
+        if($deleteid)
+        {
+            $this->custom_session->custom_set_flashdata("success", "Well done! Record Delete successfully");
+            redirect(base_url('admin/ipsum-onlinebooking-view'));
+        }
+        else
+        {
+            $post=$this->input->post();
+            $count=count($post['deleteid']);
+            $countdelete=$post['deleteid'];
+            $deletearr=$this->Auth_model->deletemultipleonline($countdelete);
+            if($deletearr)
+            {
+                $this->custom_session->custom_set_flashdata("success", "Well done! $count Record delete successfully. ");
                 $redir_url = base_url('admin/ipsum-onlinebooking-view');
                 echo json_encode(array('status' => true, 'redir_url' => $redir_url));  
-         }
-      }
+            }
+        }
     }
-      public function view_contact()
-   {
+
+    public function view_contact()
+    {
         $this->adminauth->isLoginCheck('', SITE_SESSION_NAME);
-         $data=array();  
+        $data=array();  
         $data['arrcontactquery'] = $this->Auth_model->getcontactquery();
-         $arrExtraContent = array();
+        $arrExtraContent = array();
         $arrExtraContent['js'] = array("assets/vendor_components/datatables.net/js/jquery.dataTables.min.js", "assets/vendor_components/datatables.net-bs/js/dataTables.bootstrap.min.js", "assets/js/pages/data-table.js", "assets/vendor_plugins/DataTables-1.10.15/media/js/jquery.dataTables.min.js");
         $this->layout->view('admin/view_contactquery', $data, $arrExtraContent);
-   }
-   public function view_contactdetail($id='')
-   {
-      $data=array();
-      $data['getdetailcontact']=$this->Auth_model->getcontactquerygetbyid($id);
-    $arrExtraContent = array();
+    }
+    public function view_contactdetail($id='')
+    {
+        $data=array();
+        $data['getdetailcontact']=$this->Auth_model->getcontactquerygetbyid($id);
+        $arrExtraContent = array();
         $arrExtraContent['js'] = array("assets/vendor_components/datatables.net/js/jquery.dataTables.min.js", "assets/vendor_components/datatables.net-bs/js/dataTables.bootstrap.min.js", "assets/js/pages/data-table.js", "assets/vendor_plugins/DataTables-1.10.15/media/js/jquery.dataTables.min.js");
         $this->layout->view('admin/contact_detail', $data, $arrExtraContent);  
-   }
-   public function deletecontactquery($deleteid='')
+    }
+    public function deletecontactquery($deleteid='')
     {
         $this->adminauth->isLoginCheck('', SITE_SESSION_NAME);
         $deletestyles=$this->Auth_model->deletecontactquery($deleteid);
-       if($deleteid)
-         {
-          $this->custom_session->custom_set_flashdata("success", "Well done! Record Delete successfully");
-         redirect(base_url('admin/ipsum-contactquery-view'));
-      }
-      else
-      {
-         $post=$this->input->post();
-         $count=count($post['deleteid']);
-         $countdelete=$post['deleteid'];
-         $deletearr=$this->Auth_model->deletemultiplecontactquery($countdelete);
-         if($deletearr)
-         {
-           $this->custom_session->custom_set_flashdata("success", "Well done! $count Record delete successfully. ");
+        if($deleteid)
+        {
+            $this->custom_session->custom_set_flashdata("success", "Well done! Record Delete successfully");
+            redirect(base_url('admin/ipsum-contactquery-view'));
+        }
+        else
+        {
+            $post=$this->input->post();
+            $count=count($post['deleteid']);
+            $countdelete=$post['deleteid'];
+            $deletearr=$this->Auth_model->deletemultiplecontactquery($countdelete);
+            if($deletearr) 
+            {
+                $this->custom_session->custom_set_flashdata("success", "Well done! $count Record delete successfully. ");
                 $redir_url = base_url('admin/ipsum-contactquery-view');
                 echo json_encode(array('status' => true, 'redir_url' => $redir_url));  
-         }
-      }
+            }
+        }
     }
-   
+    
+    public function view_events() {
+        $this->adminauth->isLoginCheck('login', SITE_SESSION_NAME);
+        $data=array();  
+        $data['arrEvents'] = $this->Auth_model->getEventsData();
+        $arrExtraContent = array();
+        $arrExtraContent['js'] = array("assets/vendor_components/datatables.net/js/jquery.dataTables.min.js", "assets/vendor_components/datatables.net-bs/js/dataTables.bootstrap.min.js", "assets/js/pages/data-table.js", "assets/vendor_plugins/DataTables-1.10.15/media/js/jquery.dataTables.min.js");
+        $this->layout->view('admin/view_events', $data, $arrExtraContent);
+    }
+    public function view_eventDetail($id='') {
+        $data=array();
+        $data['eventDetail']=$this->Auth_model->getEventDataById($id);
+        $arrExtraContent = array();
+        $arrExtraContent['js'] = array("assets/vendor_components/datatables.net/js/jquery.dataTables.min.js", "assets/vendor_components/datatables.net-bs/js/dataTables.bootstrap.min.js", "assets/js/pages/data-table.js", "assets/vendor_plugins/DataTables-1.10.15/media/js/jquery.dataTables.min.js");
+        $this->layout->view('admin/event_detail', $data, $arrExtraContent);
+    }
+    public function deleteEvent($deleteid='') {
+        $this->adminauth->isLoginCheck('', SITE_SESSION_NAME);
+        $deletestyles=$this->Auth_model->deleteEvent($deleteid);
+        if($deleteid) {
+            $this->custom_session->custom_set_flashdata("success", "Well done! Record Delete successfully");
+            redirect(base_url('admin/ipsum-event-view'));
+        }
+        else {
+            $post=$this->input->post();
+            $count=count($post['deleteid']);
+            $countdelete=$post['deleteid'];
+            $deletearr=$this->Auth_model->deletemultipleonline($countdelete);
+            if($deletearr) {
+                $this->custom_session->custom_set_flashdata("success", "Well done! $count Record delete successfully. ");
+                $redir_url = base_url('admin/ipsum-event-view');
+                echo json_encode(array('status' => true, 'redir_url' => $redir_url));  
+            }
+        }
+    }
 }

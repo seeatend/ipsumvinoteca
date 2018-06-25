@@ -28,4 +28,14 @@ class Home_model extends CI_Model{
         $this->db->insert('ipsumvinoteca_online_booking',$data);
         return;
     }
+    public function saveNewsletter($data)
+    {
+        $this->db->insert('ipsumvinoteca_newsletter',$data);
+        return;
+    }
+    public function saveAppointment($data)
+    {
+        $this->db->insert('ipsumvinoteca_events',$data);
+        return;
+    }
 }

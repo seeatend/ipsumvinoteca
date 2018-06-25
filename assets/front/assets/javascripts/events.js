@@ -1,36 +1,36 @@
 var clientEvents = [
  {
         title: 'Abruzzo Tasting',
-        start: new Date(2018, 02, 04),
-        end: new Date(2018, 02, 04),
+        start: new Date(2018, 06, 28),
+        end: new Date(2018, 06, 28),
         url: '',
         className: ''
         },
         {
         title: 'Marche Tasting',
-        start: new Date(2018, 02, 25),
-        end: new Date(2018, 02, 25),
+        start: new Date(2018, 07, 03),
+        end: new Date(2018, 07, 03),
         url: '',
         className: ''
-                },
-                 {
+        },
+        {
         title: 'Mothers Day Lunch',
-        start: new Date(2018, 02, 11),
-        end: new Date(2018, 02, 11),
+        start: new Date(2018, 07, 08),
+        end: new Date(2018, 07, 08),
         url: '',
         className: ''
         },
         {
         title: 'Cheese and wine',
-        start: new Date(2018, 03, 8),
-        end: new Date(2018, 03, 8),
+        start: new Date(2018, 07, 11),
+        end: new Date(2018, 07, 11),
         url: '',
         className: ''
         },
         {
         title: 'Italian Craft Beer Tasting',
-        start: new Date(2018, 03, 29),
-        end: new Date(2018, 03, 29),
+        start: new Date(2018, 07, 14),
+        end: new Date(2018, 07, 14),
         url: '',
         className: ''
         },

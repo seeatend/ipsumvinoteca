@@ -66,6 +66,10 @@ $route['admin/ipsum-onlinebooking-view']='auth/view_onlinebooking';
 $route['admin/ipsum-onlinebooking-detail/(.*)']='auth/view_bookingdetail/$1';
 $route['admin/ipsum-onlinebooking-delete']='auth/deleteonlinebooking';
 $route['admin/ipsum-onlinebooking-delete/(.*)']='auth/deleteonlinebooking/$1';
+$route['admin/ipsum-event-view']='auth/view_events';
+$route['admin/ipsum-event-detail/(.*)']='auth/view_eventDetail/$1';
+$route['admin/ipsum-event-delete']='auth/deleteEvent';
+$route['admin/ipsum-event-delete/(.*)']='auth/deleteEvent/$1';
 $route['admin/ipsum-contactquery-view']='auth/view_contact';
 $route['admin/ipsum-contactquery-detail/(.*)']='auth/view_contactdetail/$1';
 $route['admin/ipsum-contactquerey-delete']='auth/deletecontactquery';
@@ -82,5 +86,6 @@ $route['winebar']='Home/wine_bar';
 $route['events']='Home/events';
 $route['front/onlinebooking']='Home/onlinebooking';
 $route['saverequst']='Home/saveRequstNewuser';
+$route['appointment/save']='Home/saveAppointment';
 
 
